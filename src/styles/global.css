@@ -13,7 +13,7 @@ a:hover {
 @tailwind utilities;
 
 .content p {
-  @apply my-6;
+  
 }
 
 .content ul {

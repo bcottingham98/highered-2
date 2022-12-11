@@ -1,10 +1,23 @@
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
+import NextImage from 'next/image';
 
+import BaseWaitlistCandidateForm from '@/components/form/candidate/waitlist/base/BaseWaitlistCandidateForm';
+import BaseMinimalForm from '@/components/form/company/minimal/base/BaseMinimalForm';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
+const Image = (props: any) => {
+  if (props.src) {
+    return <NextImage {...props} />;
+  }
+
+  // TODO: if the image source is not there, you can set a default source
+  // const defaultSrc = "something"
+  return <NextImage {...props} src={'/*'} />;
+};
+
 const Index = () => {
-  const router = useRouter();
+  // const router = useRouter();
 
   return (
     <Main
@@ -15,170 +28,54 @@ const Index = () => {
         />
       }
     >
-      <a href="https://github.com/ixartz/Next-js-Boilerplate">
+      {/* <a href="https://github.com/ixartz/Next-js-Boilerplate">
         <img
           src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
           alt="Nextjs starter banner"
         />
-      </a>
-      <h1 className="text-2xl font-bold">
-        Boilerplate code for your Nextjs project with Tailwind CSS
-      </h1>
-      <p>
-        <span role="img" aria-label="rocket">
-          🚀
-        </span>{' '}
-        Next.js Boilerplate is a starter code for your Next js project by
-        putting developer experience first .{' '}
-        <span role="img" aria-label="zap">
-          ⚡️
-        </span>{' '}
-        Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
-        VSCode, Netlify, PostCSS, Tailwind CSS.
-      </p>
-      <h2 className="text-lg font-semibold">Next js Boilerplate Features</h2>
-      <p>Developer experience first:</p>
-      <ul>
-        <li>
-          <span role="img" aria-label="fire">
-            🔥
-          </span>{' '}
-          <a href="https://nextjs.org" rel="nofollow">
-            Next.js
-          </a>{' '}
-          for Static Site Generator
-        </li>
-        <li>
-          <span role="img" aria-label="art">
-            🎨
-          </span>{' '}
-          Integrate with{' '}
-          <a href="https://tailwindcss.com" rel="nofollow">
-            Tailwind CSS
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="nail_care">
-            💅
-          </span>{' '}
-          PostCSS for processing Tailwind CSS
-        </li>
-        <li>
-          <span role="img" aria-label="tada">
-            🎉
-          </span>{' '}
-          Type checking Typescript
-        </li>
-        <li>
-          <span role="img" aria-label="pencil2">
-            ✏️
-          </span>{' '}
-          Linter with{' '}
-          <a href="https://eslint.org" rel="nofollow">
-            ESLint
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="hammer_and_wrench">
-            🛠
-          </span>{' '}
-          Code Formatter with{' '}
-          <a href="https://prettier.io" rel="nofollow">
-            Prettier
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="fox_face">
-            🦊
-          </span>{' '}
-          Husky for Git Hooks
-        </li>
-        <li>
-          <span role="img" aria-label="no_entry_sign">
-            🚫
-          </span>{' '}
-          Lint-staged for running linters on Git staged files
-        </li>
-        <li>
-          <span role="img" aria-label="no_entry_sign">
-            🗂
-          </span>{' '}
-          VSCode configuration: Debug, Settings, Tasks and extension for
-          PostCSS, ESLint, Prettier, TypeScript
-        </li>
-        <li>
-          <span role="img" aria-label="robot">
-            🤖
-          </span>{' '}
-          SEO metadata, JSON-LD and Open Graph tags with Next SEO
-        </li>
-        <li>
-          <span role="img" aria-label="robot">
-            ⚙️
-          </span>{' '}
-          <a
-            href="https://www.npmjs.com/package/@next/bundle-analyzer"
-            rel="nofollow"
-          >
-            Bundler Analyzer
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="rainbow">
-            🌈
-          </span>{' '}
-          Include a FREE minimalist theme
-        </li>
-        <li>
-          <span role="img" aria-label="hundred">
-            💯
-          </span>{' '}
-          Maximize lighthouse score
-        </li>
-      </ul>
-      <p>Built-in feature from Next.js:</p>
-      <ul>
-        <li>
-          <span role="img" aria-label="coffee">
-            ☕
-          </span>{' '}
-          Minify HTML &amp; CSS
-        </li>
-        <li>
-          <span role="img" aria-label="dash">
-            💨
-          </span>{' '}
-          Live reload
-        </li>
-        <li>
-          <span role="img" aria-label="white_check_mark">
-            ✅
-          </span>{' '}
-          Cache busting
-        </li>
-      </ul>
-      <h2 className="text-lg font-semibold">Our Stater code Philosophy</h2>
-      <ul>
-        <li>Minimal code</li>
-        <li>SEO-friendly</li>
-        <li>
-          <span role="img" aria-label="rocket">
-            🚀
-          </span>{' '}
-          Production-ready
-        </li>
-      </ul>
-      <p>
-        Check our GitHub project for more information about{' '}
-        <a href="https://github.com/ixartz/Next-js-Boilerplate">
-          Nextjs Boilerplate
-        </a>
-        . You can also browse our{' '}
-        <a href="https://creativedesignsguru.com/category/nextjs/">
-          Premium NextJS Templates
-        </a>{' '}
-        on our website to support this project.
-      </p>
+      </a> */}
+      <section className="my-8 mb-16 flex min-h-[60vh] w-full flex-col items-center justify-center">
+        <div className="flex w-full flex-col items-center justify-center">
+          <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600">
+            Modern Job Discovery
+          </h1>
+          <p className="my-6">
+            <span role="img" aria-label="rocket">
+              {/* 🚀 */}
+            </span>{' '}
+            Find your dream job
+          </p>
+        </div>
+        <BaseWaitlistCandidateForm sampleTextProp={''} />
+      </section>
+      <section className="flex flex-row bg-green-50">
+        <div className="relative flex w-2/5 items-center justify-center">
+          <Image
+            src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+            alt=""
+            layout="fill"
+            // height="4480"
+            // width="6720"
+            className="flex items-center justify-center object-cover"
+          />
+        </div>
+        <div className="w-3/5">
+          <div className="box-border flex h-32 flex-col items-start justify-start bg-green-100 p-4">
+            <h2 className="text-2xl font-bold">Complete a quick survey</h2>
+            <p className="text-xl">
+              - Fill out a quick survey to lower your position in the waitlist
+            </p>
+            <p className="text-xl">
+              - Help us innovate for a modern job discovery platform
+            </p>
+          </div>
+          <div className="box-border h-[fit-content] p-4">
+            <div>
+              <BaseMinimalForm sampleTextProp={''} />
+            </div>
+          </div>
+        </div>
+      </section>
     </Main>
   );
 };

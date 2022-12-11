@@ -1,6 +1,10 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import type { ReactNode } from 'react';
+import { useEffect, useState } from 'react';
 
+import BaseWaitlistCandidateForm from '@/components/form/candidate/waitlist/base/BaseWaitlistCandidateForm';
+import BaseWaitlistCompanyForm from '@/components/form/company/waitlist/base/BaseWaitlistCompanyForm';
 import { AppConfig } from '@/utils/AppConfig';
 
 type IMainProps = {
@@ -8,70 +12,125 @@ type IMainProps = {
   children: ReactNode;
 };
 
-const Main = (props: IMainProps) => (
-  <div className="w-full px-1 text-gray-700 antialiased">
-    {props.meta}
+const Main = (props: IMainProps) => {
+  const router = useRouter();
+  const pathName = router.asPath;
+  const pathNameList = pathName.split('/');
+  const [pageName, setPageName] = useState('candidate');
 
-    <div className="mx-auto max-w-screen-md">
-      <div className="border-b border-gray-300">
-        <div className="pt-16 pb-8">
-          <div className="text-3xl font-bold text-gray-900">
-            {AppConfig.title}
+  useEffect(() => {
+    console.log(pathNameList[1]);
+    if (pathNameList[1] === 'companies') {
+      setPageName(pathNameList[1]);
+    } else if (pathNameList[1] === 'candidates') {
+      setPageName(pathNameList[1]);
+    } else {
+      setPageName('candidates');
+    }
+    // if (pathNameList[0] !== undefined || pathNameList[1] !== undefined) {
+    //   const data = pathNameList;
+    //   switch (data) {
+    //     case (pathNameList[1] = '/'):
+    //       if (pageName !== undefined) {
+    //         setPageName(pageName);
+    //         console.log(pageName);
+    //       }
+    //       break;
+    //     case (data = '/candidates/'):
+    //       if (pageName !== undefined) {
+    //         setPageName(pageName);
+    //         console.log(pageName);
+    //       }
+    //       break;
+    //     case (data = '/companies/'):
+    //       if (pageName !== undefined) {
+    //         setPageName(pageName);
+    //         console.log(pageName);
+    //       }
+    //       break;
+    //     default:
+    //       setPageName('candidate');
+    //   }
+    // }
+  }, []);
+
+  return (
+    <div className="w-full bg-gradient-to-b from-[#EFEFEF] to-[#EFEFEF]/0 px-1 text-gray-700 antialiased">
+      {props.meta}
+
+      <div className="mx-auto box-border p-5">
+        <div className="">
+          <div>
+            <ul className="flex flex-wrap">
+              <li className="mr-6">
+                <Link
+                  href="/"
+                  className={`${
+                    // eslint-disable-next-line no-constant-condition
+                    pageName === 'candidates' ? 'underline' : ''
+                  } border-none text-gray-800 hover:text-gray-900`}
+                >
+                  For Candidates
+                </Link>
+              </li>
+              <li className="mr-6">
+                <Link
+                  href="/companies"
+                  className={`${
+                    pageName === 'companies' ? 'underline' : ''
+                  } border-none text-gray-800 hover:text-gray-900`}
+                >
+                  For Companies
+                </Link>
+              </li>
+            </ul>
           </div>
-          <div className="text-xl">{AppConfig.description}</div>
         </div>
-        <div>
-          <ul className="flex flex-wrap text-xl">
-            <li className="mr-6">
+
+        <div className="content py-5 text-xl">{props.children}</div>
+
+        <div className="flex w-full flex-col items-start border-t border-gray-300 py-4 text-center text-sm">
+          <span className="my-2 flex aspect-square h-8 w-8 items-center justify-center rounded-full bg-black">
+            U
+          </span>
+          <p className="my-2 font-bold">{AppConfig.title}</p>
+          <p>Building the modern workforce acquisition tool</p>
+          <ul className="my-2 flex w-full flex-col items-center justify-between sm:flex-row">
+            <li>
               <Link
                 href="/"
-                className="border-none text-gray-700 hover:text-gray-900"
+                className="border-none text-gray-800 hover:text-gray-900"
               >
-                Home
+                For Candidates
               </Link>
             </li>
-            <li className="mr-6">
+            <li>
               <Link
-                href="/about/"
-                className="border-none text-gray-700 hover:text-gray-900"
+                href="/companies"
+                className="border-none text-gray-800 hover:text-gray-900"
               >
-                About
+                For Companies
               </Link>
             </li>
-            <li className="mr-6">
-              <a
-                className="border-none text-gray-700 hover:text-gray-900"
-                href="https://github.com/ixartz/Next-js-Boilerplate"
-              >
-                GitHub
-              </a>
-            </li>
-            <li className="mr-6">
-              <Link
-                href="/blog/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                Blog
-              </Link>
+            <li className="flex flex-row items-center">
+              {pageName === 'candidates' ? (
+                <BaseWaitlistCandidateForm sampleTextProp={''} />
+              ) : (
+                <></>
+              )}
+              {pageName === 'companies' ? (
+                <BaseWaitlistCompanyForm sampleTextProp={''} />
+              ) : (
+                <></>
+              )}
             </li>
           </ul>
+          <p>All rights reserved Uplift {new Date().getFullYear()}</p>
+          {/* <p>© Copyright {new Date().getFullYear()}</p> */}
         </div>
       </div>
-
-      <div className="content py-5 text-xl">{props.children}</div>
-
-      <div className="border-t border-gray-300 py-8 text-center text-sm">
-        © Copyright {new Date().getFullYear()} {AppConfig.title}. Made with{' '}
-        <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>.
-        {/*
-         * PLEASE READ THIS SECTION
-         * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.
-         * The link doesn't need to appear on every pages, one link on one page is enough.
-         * For example, in the `About` page. Thank you for your support, it'll mean a lot to me.
-         */}
-      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export { Main };

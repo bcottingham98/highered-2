@@ -22,11 +22,16 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.4",
+    "flowbite": "^1.5.4",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.0",
     "next": "^13.0.6",
     "next-seo": "^5.14.1",
     "next-sitemap": "^3.1.32",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-use": "^17.4.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
@@ -41,7 +46,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/jest": "^29.2.3",
-    "@types/node": "^18.11.10",
+    "@types/node": "^18.11.13",
     "@types/react": "^18.0.26",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",

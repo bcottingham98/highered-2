@@ -35,7 +35,7 @@ const CompanyFormPage = () => {
       </a> */}
       <section className="flex flex-col">
         <div className="flex flex-row">
-          <div className="w-3/5">
+          <div className="w-full sm:w-3/5">
             <div className="box-border h-[fit-content] p-4">
               <div className="grid grid-cols-3">
                 <p className="">
@@ -48,14 +48,16 @@ const CompanyFormPage = () => {
                     <p> Return</p>
                   </span>
                 </p>
-                <h1 className="text-2xl font-bold">Modern Hire Discovery</h1>
+                <h1 className="text-center text-2xl font-bold sm:text-left">
+                  Modern Hire Discovery
+                </h1>
               </div>
               <div>
                 <BaseCompanyForm />
               </div>
             </div>
           </div>
-          <div className="relative flex w-2/5 items-center justify-center">
+          <div className="relative hidden w-2/5 items-center justify-center sm:flex">
             <Image
               src={
                 '/assets/images/portrait-smiling-hr-manager-having-interview-with-candidate.jpg'

@@ -107,7 +107,7 @@ const Main = (props: IMainProps) => {
             <li>
               <Link
                 href="/companies"
-                className="border-none text-gray-800 hover:text-gray-900"
+                className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
               >
                 For Companies
               </Link>

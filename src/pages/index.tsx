@@ -36,7 +36,7 @@ const Index = () => {
       </a> */}
       <section className="my-8 mb-16 flex min-h-[60vh] w-full flex-col items-center justify-center">
         <div className="flex w-full flex-col items-center justify-center">
-          <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600">
+          <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left">
             Modern Job Discovery
           </h1>
           <p className="my-6">
@@ -46,10 +46,12 @@ const Index = () => {
             Find your dream job
           </p>
         </div>
-        <BaseWaitlistCandidateForm sampleTextProp={''} />
+        <div className="mt-4">
+          <BaseWaitlistCandidateForm sampleTextProp={''} />
+        </div>
       </section>
       <section className="flex flex-row bg-green-50">
-        <div className="relative flex w-2/5 items-center justify-center">
+        <div className="relative hidden w-2/5 items-center justify-center sm:flex">
           <Image
             src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
             alt=""
@@ -59,8 +61,8 @@ const Index = () => {
             className="flex items-center justify-center object-cover"
           />
         </div>
-        <div className="w-3/5">
-          <div className="box-border flex h-32 flex-col items-start justify-start bg-green-100 p-4">
+        <div className="w-full sm:w-3/5">
+          <div className="box-border flex h-[fit-content] flex-col items-start justify-start bg-green-100 p-4 sm:h-32">
             <h2 className="text-2xl font-bold">Complete a quick survey</h2>
             <p className="text-xl">
               - Fill out a quick survey to lower your position in the waitlist

@@ -1,7 +1,6 @@
 // import { useRouter } from 'next/router';
 import NextImage from 'next/image';
 
-import BaseMinimalForm from '@/components/form/candidate/minimal/base/BaseMinimalForm';
 import BaseWaitlistCompanyForm from '@/components/form/company/waitlist/base/BaseWaitlistCompanyForm';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
@@ -37,20 +36,86 @@ const Companies = () => {
       <section className="my-8 mb-16 flex min-h-[60vh] w-full flex-col items-center justify-center">
         <div className="flex w-full flex-col items-center justify-center">
           <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left">
-            Modern Hire Discovery
+            Tap into the Web3 Community
           </h1>
           <p className="my-6 text-center sm:text-left">
             <span role="img" aria-label="rocket">
               {/* 🚀 */}
             </span>{' '}
-            Find the best talent
+            The web3 community at your fingertips.
           </p>
         </div>
         <div className="mt-4">
           <BaseWaitlistCompanyForm sampleTextProp={''} />
         </div>
       </section>
-      <section className="flex flex-row bg-green-50">
+      <section className="my-4 flex flex-col space-y-4">
+        <div className="flex h-72 w-3/5 flex-row">
+          <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
+            <Image
+              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              alt=""
+              layout="fill"
+              // height="4480"
+              // width="6720"
+              className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
+            />
+          </div>
+          <div className="flex w-1/2 flex-col">
+            <h2 className="font-bold">
+              Get access to qualified candidates who have been community vetted
+            </h2>
+            <p className="text-lg">
+              Get access to qualified candidates who have been community vetted
+            </p>
+          </div>
+        </div>
+        <div className="flex h-72 w-3/5 flex-row">
+          <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
+            <Image
+              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              alt=""
+              layout="fill"
+              // height="4480"
+              // width="6720"
+              className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
+            />
+          </div>
+          <div className="flex w-1/2 flex-col">
+            <h2 className="font-bold">
+              View assessment scores to grasp a candidates capabilities on a
+              high level
+            </h2>
+            <p className="text-lg">
+              View assessment scores to grasp a candidates capabilities on a
+              high level
+            </p>
+          </div>
+        </div>
+        <div className="flex h-72 w-3/5 flex-row">
+          <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
+            <Image
+              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              alt=""
+              layout="fill"
+              // height="4480"
+              // width="6720"
+              className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
+            />
+          </div>
+          <div className="flex w-1/2 flex-col">
+            <h2 className="font-bold">
+              Give external candidates complete assessments to grasp their basic
+              capabilities on a high level
+            </h2>
+            <p className="text-lg">
+              Give external candidates complete assessments to grasp their basic
+              capabilities on a high level
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* <section className="flex flex-row bg-green-50">
         <div className="relative hidden w-2/5 items-center justify-center sm:flex">
           <Image
             src={
@@ -74,7 +139,7 @@ const Companies = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Main>
   );
 };

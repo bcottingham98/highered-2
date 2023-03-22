@@ -1,3 +1,4 @@
+import NextImage from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import type { ReactNode } from 'react';
@@ -12,6 +13,15 @@ type IMainProps = {
   children: ReactNode;
 };
 
+const Image = (props: any) => {
+  if (props.src) {
+    return <NextImage {...props} />;
+  }
+
+  // TODO: if the image source is not there, you can set a default source
+  // const defaultSrc = "something"
+  return <NextImage {...props} src={'/*'} />;
+};
 const Main = (props: IMainProps) => {
   const router = useRouter();
   const pathName = router.asPath;
@@ -65,12 +75,18 @@ const Main = (props: IMainProps) => {
               <li className="mr-6">
                 <Link
                   href="/"
-                  className={`${
-                    // eslint-disable-next-line no-constant-condition
-                    pageName === 'candidates' ? 'underline' : ''
-                  } border-none text-gray-800 hover:text-gray-900`}
+                  className="relative mr-4 hidden h-4 w-4 items-center justify-center border-none text-gray-800 hover:text-gray-900 sm:flex"
                 >
-                  For Candidates
+                  <Image
+                    src={
+                      '/assets/images/beautiful-woman-suit-happily-greets-man.jpg'
+                    }
+                    alt=""
+                    layout="fill"
+                    // height="4480"
+                    // width="6720"
+                    className="relative flex w-4 items-center justify-center object-cover"
+                  />
                 </Link>
               </li>
               <li className="mr-6">
@@ -80,7 +96,7 @@ const Main = (props: IMainProps) => {
                     pageName === 'companies' ? 'underline' : ''
                   } border-none text-gray-800 hover:text-gray-900`}
                 >
-                  For Companies
+                  For Recruiters
                 </Link>
               </li>
             </ul>
@@ -99,9 +115,18 @@ const Main = (props: IMainProps) => {
             <li>
               <Link
                 href="/"
-                className="border-none text-gray-800 hover:text-gray-900"
+                className="relative mr-4 hidden h-4 w-4 items-center justify-center border-none text-gray-800 hover:text-gray-900 sm:flex"
               >
-                For Candidates
+                <Image
+                  src={
+                    '/assets/images/beautiful-woman-suit-happily-greets-man.jpg'
+                  }
+                  alt=""
+                  layout="fill"
+                  // height="4480"
+                  // width="6720"
+                  className="relative flex w-4 items-center justify-center object-cover"
+                />
               </Link>
             </li>
             <li>
@@ -109,7 +134,7 @@ const Main = (props: IMainProps) => {
                 href="/companies"
                 className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
               >
-                For Companies
+                For Recruiters
               </Link>
             </li>
             <li className="flex flex-row items-center">

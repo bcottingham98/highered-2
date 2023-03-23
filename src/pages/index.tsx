@@ -302,12 +302,12 @@ const Index = () => {
       <section>
         <div className="my-8 mx-24 mt-16 flex flex-col items-center">
           <AnimateOnScroll>
-            <h2 className="mb-4 text-2xl font-bold">About Highered</h2>
+            <h2 className="mb-4 text-3xl font-bold">About Highered</h2>
           </AnimateOnScroll>
-          <AnimateOnScroll>
-            <div className="relative ml-4 hidden h-auto w-full items-center justify-center sm:flex">
+          <AnimateOnScroll fullWidth>
+            <div className="relative mb-4 hidden h-auto w-full items-center justify-center sm:flex">
               <Image
-                src={'/assets/images/Candidates-for-Job-Interview.png'}
+                src={'/assets/images/Web-3-2.jpg'}
                 alt=""
                 layout="fill"
                 // height="4480"
@@ -317,8 +317,8 @@ const Index = () => {
             </div>
           </AnimateOnScroll>
           <AnimateOnScroll>
-            <p className="text-lg">
-              <span className="font-bold">H</span>
+            <p className="mx-4 text-lg sm:mx-16">
+              <span className="font-bold">&nbsp;&nbsp;&nbsp;&nbsp;H</span>
               ighered is a unique community-driven website that aims to connect
               recruiters from startups with small teams that have had
               difficulties finding qualified web3 candidates for their

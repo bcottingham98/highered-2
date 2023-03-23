@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 type Props = {
   children: React.ReactNode;
   reappear?: boolean;
+  fullWidth?: boolean;
   threshold?: number;
 };
 
@@ -44,7 +45,12 @@ const useElementOnScreen = (
   return [containerRef, isVisible];
 };
 
-const AnimateOnScroll = ({ children, reappear, threshold = 0.5 }: Props) => {
+const AnimateOnScroll = ({
+  children,
+  reappear,
+  fullWidth,
+  threshold = 0.5,
+}: Props) => {
   const [containerRef, isVisible] = useElementOnScreen({
     threshold,
     reappear,
@@ -58,7 +64,9 @@ const AnimateOnScroll = ({ children, reappear, threshold = 0.5 }: Props) => {
           isVisible
             ? 'translate-y-0 opacity-100 blur-none'
             : 'translate-y-20 opacity-0 blur-lg'
-        }  motion-reduce:transition-none motion-reduce:hover:transform-none`}
+        } ${
+          fullWidth ? 'w-full' : ''
+        } motion-reduce:transition-none motion-reduce:hover:transform-none`}
       >
         {children}
       </div>

@@ -122,7 +122,9 @@ const Companies = () => {
         <div className="flex w-full flex-row">
           <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
-              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              src={
+                '/assets/images/Woman-in-office-taking-part-in-interview-asessment-on-laptop.jpg.optimal.jpg'
+              }
               alt=""
               layout="fill"
               // height="4480"

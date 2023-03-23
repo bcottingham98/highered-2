@@ -104,25 +104,28 @@ const Main = (props: IMainProps) => {
         <div className="content py-5 text-xl">{props.children}</div>
 
         <div className="flex w-full flex-col items-start border-t border-gray-300 py-4 text-center text-sm">
-          <span className="my-2 flex aspect-square h-8 w-8 items-center justify-center rounded-full bg-black">
-            U
-          </span>
+          <Link
+            href="/"
+            className="relative my-2 mr-4 flex aspect-square h-8 w-8 items-center justify-center border-none text-gray-800 hover:text-gray-900"
+          >
+            <Image
+              src={'/assets/vectors/Elevate-Sun-Final.svg'}
+              alt=""
+              layout="fill"
+              // height="4480"
+              // width="6720"
+              className="relative flex w-4 items-center justify-center object-cover"
+            />
+          </Link>
           <p className="my-2 font-bold">{AppConfig.title}</p>
           <p>Building the modern workforce acquisition tool</p>
           <ul className="my-2 flex w-full flex-col items-center justify-between sm:flex-row">
             <li>
               <Link
                 href="/"
-                className="relative mr-4 hidden h-4 w-4 items-center justify-center border-none text-gray-800 hover:text-gray-900 sm:flex"
+                className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
               >
-                <Image
-                  src={'/assets/vectors/Elevate-Sun-Final.svg'}
-                  alt=""
-                  layout="fill"
-                  // height="4480"
-                  // width="6720"
-                  className="relative flex w-4 items-center justify-center object-cover"
-                />
+                For Candidates
               </Link>
             </li>
             <li>

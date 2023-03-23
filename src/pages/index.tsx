@@ -51,7 +51,7 @@ const Index = () => {
         </div>
       </section>
       <section className="my-4 mb-8 flex flex-col space-y-8">
-        <AnimateOnScroll reappear>
+        <AnimateOnScroll>
           <div className="my-8 flex w-full flex-row items-center justify-center">
             <div className="relative mr-4 hidden h-10 w-10 items-center justify-center sm:flex">
               <Image
@@ -68,7 +68,8 @@ const Index = () => {
             </h2>
           </div>
         </AnimateOnScroll>
-        <AnimateOnScroll reappear>
+        <AnimateOnScroll>
+          {/* reappear */}
           <div className="flex w-full flex-row">
             <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
               <Image

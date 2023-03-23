@@ -22,5 +22,5 @@ a:hover {
 
 .tailwind-img-override {
   height: auto !important;
-  display: relative !important;
+  position: relative !important;
 }

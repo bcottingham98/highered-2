@@ -42,15 +42,15 @@ const Index = () => {
             <span role="img" aria-label="rocket">
               {/* 🚀 */}
             </span>{' '}
-            Jump into the web3 community
+            Join our waitlist
           </p>
         </div>
         <div className="mt-4">
           <BaseWaitlistCandidateForm sampleTextProp={''} />
         </div>
       </section>
-      <section className="my-4 flex flex-col space-y-4">
-        <div className="flex h-72 w-3/5 flex-row">
+      <section className="my-4 mb-8 flex flex-col space-y-8">
+        <div className="flex w-full flex-row">
           <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
               src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
@@ -66,11 +66,19 @@ const Index = () => {
               Schedule 1 on 1 interviews with the industries top talent
             </h2>
             <p className="text-lg">
-              Schedule 1 on 1 interviews with the industries top talent
+              Looking to take your business to the next level? Our 1 on 1
+              interview service connects you with the top talent in your
+              industry. Whether you&apos;re seeking insights from thought
+              leaders or advice from experienced professionals, we&apos;ll help
+              you find the right match to meet your unique needs. Our process is
+              designed to ensure that you get the most out of your interview,
+              with personalized attention and customized questions tailored to
+              your goals. Get the inside scoop from the best and brightest in
+              your field - schedule your 1 on 1 interview today.
             </p>
           </div>
         </div>
-        <div className="flex h-72 w-3/5 flex-row">
+        <div className="flex w-full flex-row">
           <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
               src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
@@ -83,10 +91,22 @@ const Index = () => {
           </div>
           <div className="flex w-1/2 flex-col">
             <h2 className="font-bold">Learn during the interview</h2>
-            <p className="text-lg">Learn during the interview</p>
+            <p className="text-lg">
+              At our company, we believe that interviews are not just for
+              hiring, but also for learning. Our interview process is designed
+              to give you the opportunity to gain valuable insights and
+              knowledge from the industry&apos;s top talent. Our interviewers
+              are experts in their fields and have a wealth of experience to
+              share with you. With our &quot;learn during the interview&quot;
+              approach, you&apos;ll come away with new ideas, strategies, and
+              perspectives that can help you grow personally and professionally.
+              Whether you&apos;re a seasoned pro or just starting out,
+              we&apos;ll help you expand your knowledge and take your skills to
+              the next level.
+            </p>
           </div>
         </div>
-        <div className="flex h-72 w-3/5 flex-row">
+        <div className="flex w-full flex-row">
           <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
               src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
@@ -103,15 +123,27 @@ const Index = () => {
               blockchain developers, digital artists and community managers
             </h2>
             <p className="text-lg">
-              Get reviewed and vetted of your skillset by experienced sr
-              blockchain developers, digital artists and community managers
+              Are you a blockchain developer, digital artist, or community
+              manager looking to showcase your skills and get recognized by
+              industry experts? Look no further! Our review and vetting service
+              connects you with experienced senior professionals who will
+              evaluate your skillset and provide feedback to help you improve.
+              Our team consists of seasoned blockchain developers, digital
+              artists, and community managers who have the knowledge and
+              expertise to recognize talent and potential. By getting reviewed
+              and vetted by our team, you&apos;ll receive valuable insights and
+              constructive criticism that will help you refine your skills and
+              stand out in your field. Whether you&apos;re just starting out or
+              looking to take your career to the next level, our service is
+              designed to help you succeed. Don&apos;t wait any longer - get
+              reviewed and vetted by our team of experts today!
             </p>
           </div>
         </div>
       </section>
-      <section className="my-4 flex flex-col items-end space-y-4">
-        <div className="flex h-72 w-3/5 flex-row">
-          <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
+      <section className="my-8 flex flex-col items-end space-y-8">
+        <div className="flex w-full flex-row-reverse">
+          <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
               src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
               alt=""
@@ -127,13 +159,26 @@ const Index = () => {
               household name organizations
             </h2>
             <p className="text-lg">
-              Test yourself against assessments created by Sr web3 employees at
-              household name organizations
+              Ready to test your skills and knowledge against some of the best
+              in the business? Our assessment service puts you to the test with
+              challenges created by senior web3 employees from household name
+              organizations. Whether you&apos;re a developer, designer, or
+              marketer, our assessments are designed to challenge you and push
+              you to your limits. Our team of experts has years of experience in
+              the industry and has crafted assessments that accurately reflect
+              the skills and knowledge needed to succeed in today&apos;s web3
+              landscape. By taking our assessments, you&apos;ll not only gain
+              valuable feedback on your strengths and weaknesses, but also the
+              opportunity to showcase your abilities to potential employers. So
+              if you&apos;re looking for a way to take your career to the next
+              level, look no further than our assessment service. Get started
+              today and see how you stack up against the best of the best in
+              web3.
             </p>
           </div>
         </div>
-        <div className="flex h-72 w-3/5 flex-row">
-          <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
+        <div className="flex w-full flex-row-reverse">
+          <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
               src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
               alt=""
@@ -148,12 +193,25 @@ const Index = () => {
               Share your scores with potential employeers
             </h2>
             <p className="text-lg">
-              Share your scores with potential employeers
+              Are you looking for a way to stand out from the crowd and impress
+              potential employers? Our assessment service not only tests your
+              skills and knowledge but also provides you with the opportunity to
+              share your scores with potential employers. By sharing your
+              scores, you&apos;ll demonstrate your commitment to excellence and
+              your willingness to put your skills to the test. Our assessments
+              are designed by senior web3 employees from top organizations,
+              ensuring that your scores carry weight in the industry. By taking
+              our assessments and sharing your scores, you&apos;ll position
+              yourself as a top candidate for any web3 job. Whether you&apos;re
+              just starting out in your career or looking to take it to the next
+              level, our assessment service is the perfect way to showcase your
+              abilities and get noticed by employers. Don&apos;t wait any longer
+              - take our assessments and share your scores today.
             </p>
           </div>
         </div>
-        <div className="flex h-72 w-3/5 flex-row">
-          <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
+        <div className="flex w-full flex-row-reverse">
+          <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
               src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
               alt=""
@@ -165,15 +223,32 @@ const Index = () => {
           </div>
           <div className="flex w-1/2 flex-col">
             <h2 className="font-bold">Grow your skills as you test yourself</h2>
-            <p className="text-lg">Grow your skills as you test yourself</p>
+            <p className="text-lg">
+              Ready to take your web3 skills to the next level? Our assessment
+              service not only tests your knowledge and abilities but also helps
+              you grow your skillset as you test yourself. Our assessments are
+              designed to challenge you and push you outside your comfort zone,
+              allowing you to identify areas for improvement and develop new
+              skills. By taking our assessments, you&apos;ll gain valuable
+              insights and feedback from senior web3 employees from top
+              organizations. Our assessments cover a wide range of topics,
+              including development, design, and marketing, giving you a
+              well-rounded understanding of the web3 landscape. And as you test
+              yourself and improve your scores, you&apos;ll gain confidence and
+              a sense of accomplishment that will serve you well in your career.
+              So if you&apos;re ready to grow your web3 skillset and test
+              yourself against the best, our assessment service is the perfect
+              place to start.
+            </p>
           </div>
         </div>
       </section>
       <section>
         <div className="mx-24 flex flex-col items-center">
-          <h2 className="mb-4 font-bold">About Highered</h2>
+          <h2 className="mb-4 text-2xl font-bold">About Highered</h2>
           <p className="text-lg">
-            Highered is a unique community-driven website that aims to connect
+            <span className="font-bold">H</span>
+            ighered is a unique community-driven website that aims to connect
             recruiters from startups with small teams that have had difficulties
             finding qualified web3 candidates for their organizations. The
             platform also helps candidates looking for jobs within the web3

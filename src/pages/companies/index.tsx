@@ -42,15 +42,15 @@ const Companies = () => {
             <span role="img" aria-label="rocket">
               {/* 🚀 */}
             </span>{' '}
-            The web3 community at your fingertips.
+            Join our waitlist
           </p>
         </div>
         <div className="mt-4">
           <BaseWaitlistCompanyForm sampleTextProp={''} />
         </div>
       </section>
-      <section className="my-4 flex flex-col space-y-4">
-        <div className="flex h-72 w-3/5 flex-row">
+      <section className="my-4 flex flex-col space-y-8">
+        <div className="flex w-full flex-row">
           <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
               src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
@@ -66,12 +66,23 @@ const Companies = () => {
               Get access to qualified candidates who have been community vetted
             </h2>
             <p className="text-lg">
-              Get access to qualified candidates who have been community vetted
+              Our vetting service takes the guesswork out of hiring by providing
+              you with access to a pool of qualified candidates who have been
+              vetted by the community. Our vetting process is rigorous and
+              thorough, ensuring that only the best and most qualified
+              candidates make it through. Our community of web3 experts provides
+              valuable feedback on candidates, giving you a well-rounded view of
+              their skills and potential. With our vetting service, you can save
+              time and resources while still finding top talent for your
+              organization. So if you&apos;re looking for a more efficient and
+              effective way to hire web3 candidates, look no further than our
+              vetting service. Get started today and find your next superstar
+              hire!
             </p>
           </div>
         </div>
-        <div className="flex h-72 w-3/5 flex-row">
-          <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
+        <div className="flex w-full flex-row-reverse">
+          <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
               src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
               alt=""
@@ -87,12 +98,28 @@ const Companies = () => {
               high level
             </h2>
             <p className="text-lg">
-              View assessment scores to grasp a candidates capabilities on a
-              high level
+              Are you tired of spending hours poring over resumes and conducting
+              interviews, only to find that you still don&apos;t have a clear
+              understanding of a candidate&apos;s capabilities? Our assessment
+              and interview recap service can help. With our comprehensive
+              assessments and detailed interview recaps, you can quickly get a
+              high-level understanding of a candidate&apos;s skills and
+              potential, allowing you to make more informed decisions about who
+              to move forward with. Our assessments are designed by senior web3
+              employees from top organizations, ensuring that they accurately
+              reflect the skills and knowledge needed to succeed in today&apos;s
+              web3 landscape. And our interview recaps provide valuable insights
+              into a candidate&apos;s communication skills, work style, and
+              overall fit for your organization. With our assessment and
+              interview recap service, you can streamline your hiring process
+              and make more informed hiring decisions. So if you&apos;re ready
+              to take the guesswork out of candidate evaluation, try our service
+              today. View assessment scores and interview recaps and get a clear
+              understanding of a candidate&apos;s capabilities on a high level.
             </p>
           </div>
         </div>
-        <div className="flex h-72 w-3/5 flex-row">
+        <div className="flex w-full flex-row">
           <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
               src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
@@ -109,8 +136,24 @@ const Companies = () => {
               capabilities on a high level
             </h2>
             <p className="text-lg">
-              Give external candidates complete assessments to grasp their basic
-              capabilities on a high level
+              As a recruiter or hiring manager, you know that sourcing
+              candidates is just the first step in the hiring process. But how
+              can you quickly and accurately assess a candidate&apos;s
+              capabilities before moving forward with interviews and
+              evaluations? Our assessment service can help. With our
+              comprehensive assessments, you can quickly get a high-level
+              understanding of a candidate&apos;s basic capabilities, allowing
+              you to make more informed decisions about who to move forward
+              with. And because our assessments are designed by senior web3
+              employees from top organizations, you can be confident in their
+              accuracy and relevance to the industry. Our assessments cover a
+              wide range of topics, including development, design, and
+              marketing, giving you a well-rounded view of a candidate&apos;s
+              skills. So if you want to take the guesswork out of candidate
+              evaluation and streamline your hiring process, try our assessment
+              service today. Give your personally sourced candidates the
+              opportunity to showcase their capabilities and make your hiring
+              decisions with confidence.
             </p>
           </div>
         </div>

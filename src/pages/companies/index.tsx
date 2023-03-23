@@ -51,7 +51,7 @@ const Companies = () => {
       </section>
       <section className="my-4 flex flex-col space-y-8">
         <div className="flex w-full flex-row">
-          <div className="relative mr-4 hidden h-10 w-10 items-center justify-center sm:flex">
+          <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
               src={'/assets/images/hiring-concept.webp'}
               alt=""

@@ -50,6 +50,21 @@ const Index = () => {
         </div>
       </section>
       <section className="my-4 mb-8 flex flex-col space-y-8">
+        <div className="my-8 flex w-full flex-row items-center justify-center">
+          <div className="relative mr-4 hidden h-10 w-10 items-center justify-center sm:flex">
+            <Image
+              src={'/assets/vectors/virtual-interview-icon.svg'}
+              alt=""
+              layout="fill"
+              // height="4480"
+              // width="6720"
+              className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
+            />
+          </div>
+          <h2 className="text-3xl font-bold">
+            Jr to Sr and Peer to Peer Interviews
+          </h2>
+        </div>
         <div className="flex w-full flex-row">
           <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
@@ -142,6 +157,21 @@ const Index = () => {
         </div>
       </section>
       <section className="my-8 flex flex-col items-end space-y-8">
+        <div className="my-8 mt-16 flex w-full flex-row items-center justify-center">
+          <div className="relative mr-4 hidden h-10 w-10 items-center justify-center sm:flex">
+            <Image
+              src={'/assets/vectors/virtual-assessment-icon.svg'}
+              alt=""
+              layout="fill"
+              // height="4480"
+              // width="6720"
+              className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
+            />
+          </div>
+          <h2 className="text-3xl font-bold">
+            Community created skill assessments
+          </h2>
+        </div>
         <div className="flex w-full flex-row-reverse">
           <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image

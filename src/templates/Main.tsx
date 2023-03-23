@@ -75,12 +75,10 @@ const Main = (props: IMainProps) => {
               <li className="mr-6">
                 <Link
                   href="/"
-                  className="relative mr-4 hidden h-4 w-4 items-center justify-center border-none text-gray-800 hover:text-gray-900 sm:flex"
+                  className="relative mr-4 hidden h-6 w-6 items-center justify-center border-none text-gray-800 hover:text-gray-900 sm:flex"
                 >
                   <Image
-                    src={
-                      '/assets/images/beautiful-woman-suit-happily-greets-man.jpg'
-                    }
+                    src={'/assets/vectors/Elevate-Sun-Final.svg'}
                     alt=""
                     layout="fill"
                     // height="4480"
@@ -118,9 +116,7 @@ const Main = (props: IMainProps) => {
                 className="relative mr-4 hidden h-4 w-4 items-center justify-center border-none text-gray-800 hover:text-gray-900 sm:flex"
               >
                 <Image
-                  src={
-                    '/assets/images/beautiful-woman-suit-happily-greets-man.jpg'
-                  }
+                  src={'/assets/vectors/Elevate-Sun-Final.svg'}
                   alt=""
                   layout="fill"
                   // height="4480"

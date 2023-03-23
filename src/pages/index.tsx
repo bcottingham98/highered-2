@@ -53,7 +53,7 @@ const Index = () => {
         <div className="flex w-full flex-row">
           <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
-              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              src={'/assets/images/discuss-salary-in-interview-1.jpg'}
               alt=""
               layout="fill"
               // height="4480"
@@ -81,7 +81,7 @@ const Index = () => {
         <div className="flex w-full flex-row">
           <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
-              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              src={'/assets/images/UpdateEnglishPronunciation-1116x628-1.webp'}
               alt=""
               layout="fill"
               // height="4480"
@@ -109,7 +109,7 @@ const Index = () => {
         <div className="flex w-full flex-row">
           <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
-              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              src={'/assets/images/content_portrait.jpg'}
               alt=""
               layout="fill"
               // height="4480"
@@ -145,7 +145,9 @@ const Index = () => {
         <div className="flex w-full flex-row-reverse">
           <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
-              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              src={
+                '/assets/images/5-guidelines-for-developing-good-online-assessments-1024x574.jpg'
+              }
               alt=""
               layout="fill"
               // height="4480"
@@ -180,7 +182,7 @@ const Index = () => {
         <div className="flex w-full flex-row-reverse">
           <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
-              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              src={'/assets/images/www.usnews.jpg'}
               alt=""
               layout="fill"
               // height="4480"
@@ -213,7 +215,7 @@ const Index = () => {
         <div className="flex w-full flex-row-reverse">
           <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
-              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              src={'/assets/images/improve_your_skills.jpg'}
               alt=""
               layout="fill"
               // height="4480"

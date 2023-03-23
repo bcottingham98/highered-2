@@ -53,7 +53,7 @@ const Companies = () => {
         <div className="flex w-full flex-row">
           <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
-              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              src={'/assets/images/hiring-concept.webp'}
               alt=""
               layout="fill"
               // height="4480"
@@ -84,7 +84,7 @@ const Companies = () => {
         <div className="flex w-full flex-row-reverse">
           <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
-              src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}
+              src={'/assets/images/resume_190411-800x450.jpg'}
               alt=""
               layout="fill"
               // height="4480"

@@ -82,7 +82,7 @@ const Companies = () => {
           </div>
         </div>
         <div className="flex w-full flex-row-reverse">
-          <div className="relative ml-4 hidden h-10 w-10 items-center justify-center sm:flex">
+          <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
             <Image
               src={'/assets/images/resume_190411-800x450.jpg'}
               alt=""

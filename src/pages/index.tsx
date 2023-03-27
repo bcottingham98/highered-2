@@ -154,16 +154,16 @@ const Index = () => {
                 industry experts? Look no further! Our review and vetting
                 service connects you with experienced senior professionals who
                 will evaluate your skillset and provide feedback to help you
-                improve. Our team consists of seasoned blockchain developers,
-                digital artists, and community managers who have the knowledge
-                and expertise to recognize talent and potential. By getting
-                reviewed and vetted by our team, you&apos;ll receive valuable
-                insights and constructive criticism that will help you refine
-                your skills and stand out in your field. Whether you&apos;re
-                just starting out or looking to take your career to the next
-                level, our service is designed to help you succeed. Don&apos;t
-                wait any longer - get reviewed and vetted by our team of experts
-                today!
+                improve. Our community consists of seasoned blockchain
+                developers, digital artists, and community managers who have the
+                knowledge and expertise to recognize talent and potential. By
+                getting reviewed and vetted by our community, you&apos;ll
+                receive valuable insights and constructive criticism that will
+                help you refine your skills and stand out in your field. Whether
+                you&apos;re just starting out or looking to take your career to
+                the next level, our service is designed to help you succeed.
+                Don&apos;t wait any longer - get reviewed and vetted by our
+                communities experts today!
               </p>
             </div>
           </div>
@@ -212,7 +212,7 @@ const Index = () => {
                 with challenges created by senior web3 employees from household
                 name organizations. Whether you&apos;re a developer, designer,
                 or marketer, our assessments are designed to challenge you and
-                push you to your limits. Our team of experts has years of
+                push you to your limits. Our community of experts has years of
                 experience in the industry and has crafted assessments that
                 accurately reflect the skills and knowledge needed to succeed in
                 today&apos;s web3 landscape. By taking our assessments,
@@ -300,7 +300,7 @@ const Index = () => {
         </AnimateOnScroll>
       </section>
       <section>
-        <div className="my-8 mx-24 mt-16 flex flex-col items-center">
+        <div className="mx-24 mt-16 flex flex-col items-center">
           <AnimateOnScroll>
             <h2 className="mb-4 text-3xl font-bold">About Highered</h2>
           </AnimateOnScroll>

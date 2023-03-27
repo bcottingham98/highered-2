@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import type { ReactNode } from 'react';
 import { useEffect, useState } from 'react';
 
+import BaseCta from '@/components/cta/base/BaseCta';
 import BaseWaitlistCandidateForm from '@/components/form/candidate/waitlist/base/BaseWaitlistCandidateForm';
 import BaseWaitlistCompanyForm from '@/components/form/company/waitlist/base/BaseWaitlistCompanyForm';
 import { AppConfig } from '@/utils/AppConfig';
@@ -30,9 +31,11 @@ const Main = (props: IMainProps) => {
 
   useEffect(() => {
     console.log(pathNameList[1]);
-    if (pathNameList[1] === 'companies') {
+    if (pathNameList[1] === 'hiring') {
       setPageName(pathNameList[1]);
     } else if (pathNameList[1] === 'candidates') {
+      setPageName(pathNameList[1]);
+    } else if (pathNameList[1] === 'blog') {
       setPageName(pathNameList[1]);
     } else {
       setPageName('candidates');
@@ -52,7 +55,7 @@ const Main = (props: IMainProps) => {
     //         console.log(pageName);
     //       }
     //       break;
-    //     case (data = '/companies/'):
+    //     case (data = '/hiring/'):
     //       if (pageName !== undefined) {
     //         setPageName(pageName);
     //         console.log(pageName);
@@ -89,12 +92,22 @@ const Main = (props: IMainProps) => {
               </li>
               <li className="mr-6">
                 <Link
-                  href="/companies"
+                  href="/hiring"
                   className={`${
-                    pageName === 'companies' ? 'underline' : ''
+                    pageName === 'hiring' ? 'underline' : ''
                   } border-none text-gray-800 hover:text-gray-900`}
                 >
                   For Recruiters
+                </Link>
+              </li>
+              <li className="mr-6">
+                <Link
+                  href="/blog"
+                  className={`${
+                    pageName === 'blog' ? 'underline' : ''
+                  } border-none text-gray-800 hover:text-gray-900`}
+                >
+                  Blog
                 </Link>
               </li>
             </ul>
@@ -102,6 +115,10 @@ const Main = (props: IMainProps) => {
         </div>
 
         <div className="content py-5 text-xl">{props.children}</div>
+
+        <section>
+          <BaseCta />
+        </section>
 
         <div className="flex w-full flex-col items-start border-t border-gray-300 py-4 text-center text-sm">
           <Link
@@ -121,20 +138,36 @@ const Main = (props: IMainProps) => {
           <p>Building the modern workforce acquisition tool</p>
           <ul className="my-2 flex w-full flex-col items-center justify-between sm:flex-row">
             <li>
-              <Link
-                href="/"
-                className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
-              >
-                For Candidates
-              </Link>
+              <div className="flex flex-col items-start">
+                <Link
+                  href="/"
+                  className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
+                >
+                  For Candidates
+                </Link>
+                <Link
+                  href="/hiring"
+                  className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
+                >
+                  For Recruiters
+                </Link>
+              </div>
             </li>
             <li>
-              <Link
-                href="/companies"
-                className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
-              >
-                For Recruiters
-              </Link>
+              <div className="flex flex-col items-start">
+                <Link
+                  href="/blog"
+                  className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
+                >
+                  Blog
+                </Link>
+                <Link
+                  href="/pricing"
+                  className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
+                >
+                  Pricing
+                </Link>
+              </div>
             </li>
             <li className="flex flex-row items-center">
               {pageName === 'candidates' ? (

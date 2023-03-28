@@ -104,7 +104,7 @@ const Blog = () => (
             <div className="flex">
               <Link
                 href={`/blog/blog-${featuredPost.href}`}
-                className="text-sm font-semibold leading-6 text-indigo-600"
+                className="text-sm font-semibold leading-6 text-green-600"
                 aria-describedby="featured-post"
               >
                 {`Blog - ${featuredPost.href}`}

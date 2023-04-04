@@ -149,6 +149,7 @@ const Blog = () => (
                     <Link
                       href={`/blog/blog-${post.href}`}
                       aria-describedby="post"
+                      className="text-gray-900"
                     >
                       <span className="absolute inset-0" />
                       {post.title}
@@ -168,7 +169,7 @@ const Blog = () => (
                       alt=""
                       className="h-6 w-6 flex-none rounded-full bg-gray-50"
                     />
-                    {post.author.name}
+                    <p className="text-gray-900">{post.author.name}</p>
                   </a>
                 </div>
               </article>
@@ -217,6 +218,7 @@ const Blog = () => (
                       <Link
                         href={`/blog/blog-${post.href}`}
                         aria-describedby="post"
+                        className="text-gray-900"
                       >
                         <span className="absolute inset-0" />
                         {post.title}
@@ -237,7 +239,7 @@ const Blog = () => (
                         <p className="font-semibold text-gray-900">
                           <a href={post.author.href}>
                             <span className="absolute inset-0" />
-                            {post.author.name}
+                            <p className="text-gray-900">{post.author.name}</p>
                           </a>
                         </p>
                       </div>

@@ -2,7 +2,6 @@
 import NextImage from 'next/image';
 
 import AnimateOnScroll from '@/components/animations/onScroll/AnimateOnScroll';
-import BaseWaitlistCandidateForm from '@/components/form/candidate/waitlist/base/BaseWaitlistCandidateForm';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
@@ -34,273 +33,748 @@ const Index = () => {
           alt="Nextjs starter banner"
         />
       </a> */}
-      <section className="my-8 mb-16 flex min-h-[60vh] w-full flex-col items-center justify-center">
-        <div className="flex w-full flex-col items-center justify-center">
-          <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left">
-            Modern Web3 Job Discovery
-          </h1>
-          <p className="my-6">
-            <span role="img" aria-label="rocket">
-              {/* 🚀 */}
-            </span>{' '}
-            Join our waitlist
-          </p>
+      <section className="my-8 mb-16 flex min-h-[80vh] w-full flex-col items-start justify-start">
+        <div className="flex min-h-[80vh] w-full items-start justify-start">
+          <div className="z-10">
+            <div className="flex flex-col items-start justify-center">
+              <div className="flex flex-col">
+                <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left">
+                  Modern Web3 Mock
+                </h1>
+                <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left">
+                  Interviews
+                </h1>
+              </div>
+              <p className="my-6">
+                <span role="img" aria-label="rocket">
+                  {/* 🚀 */}
+                </span>{' '}
+                Looking to take your business to the next level? Our 1 on 1
+                interview service connects you with the top talent in your
+                industry.
+              </p>
+            </div>
+            <div className="mt-4 flex">
+              {/* <BaseWaitlistCandidateForm sampleTextProp={''} /> */}
+              <button className="ml-0 mt-4 box-border h-12 w-full rounded bg-gradient-to-r from-green-600 to-green-400 px-8 py-2 text-white shadow-md hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:w-[fit-content]">
+                Get Started
+              </button>
+              <button className="ml-0 mt-4 box-border h-12 w-full rounded border border-gray-700 bg-gray-300 px-8 py-2 text-gray-700 shadow-inner hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:ml-4 sm:w-[fit-content]">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div className="relative mr-4 hidden h-full w-1/2 items-center justify-center sm:flex">
+            {/* <Image
+            src={'/assets/images/UpdateEnglishPronunciation-1116x628-1.webp'}
+            alt=""
+            layout="fill"
+            // height="4480"
+            // width="6720"
+            className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
+          /> */}
+            <div className="flex flex-col space-y-4">
+              <div className="aspect-[16/9] h-[65vh] min-h-[50vh] overflow-hidden rounded-lg border border-black bg-gray-50">
+                <div className="h-[10%] w-full rounded-t-lg border-b border-black bg-gray-50">
+                  <div className="box-border flex h-full w-full items-center justify-end space-x-2 pr-2">
+                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                      v
+                    </div>
+                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                      v
+                    </div>
+                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                      v
+                    </div>
+                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                      v
+                    </div>
+                  </div>
+                </div>
+                <div className="flex h-[90%] w-full flex-row rounded-b-lg">
+                  <div className="h-auto w-[0%] animate-filepicker rounded-bl-lg border-r-0 border-black bg-gray-50">
+                    <div className="box-border flex h-full w-full flex-col space-y-1 p-2">
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <div className="box-border w-full pl-6">
+                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <div className="box-border w-full pl-6">
+                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                    </div>
+                  </div>
+                  <div className="flex h-auto w-[0%] animate-editor flex-col rounded-br-lg bg-gray-50">
+                    <div className="mt-[-2rem] ml-[-1px] flex h-[2rem] w-[20%] animate-editor-tab items-center justify-start rounded-t-lg border border-b-0 border-black bg-gray-50">
+                      <span className="mx-2 h-[60%] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                    </div>
+                    <div className="box-border flex h-[65%] w-full animate-editor-contents flex-col space-y-1 py-2">
+                      <div className=" box-border flex w-full flex-row space-x-1 pl-2">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="box-border flex w-full flex-row space-x-1 pl-6">
+                        <span className="box-border h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[35%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                    </div>
+                    <div className="h-[35%] w-full animate-terminal border-t border-black bg-gray-50"></div>
+                  </div>
+                  <div className="h-auto w-[100%] animate-video rounded-b-lg bg-gray-50"></div>
+                  <div className="h-auto w-[0%] animate-chat rounded-br-lg border-l-0 border-black bg-gray-50">
+                    <div className="box-border flex h-full w-full flex-col py-2">
+                      <div className="box-border flex h-[90%] w-full flex-col justify-end space-y-1 p-2">
+                        <div className="flex w-full justify-end">
+                          <span className="box-border h-[1rem] w-[60%] rounded-xl bg-gray-600" />
+                        </div>
+                        <div className="flex w-full justify-start">
+                          <span className="box-border h-[1rem] w-[40%] rounded-full bg-gray-600" />
+                        </div>
+                      </div>
+                      <div className="box-border flex h-[10%] w-full flex-row px-2">
+                        <div className="h-[1.4rem] w-[100%] rounded-full border border-black bg-transparent">
+                          <span className="box-border h-[1rem] w-[40%] rounded-full bg-gray-50" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="mt-4">
-          <BaseWaitlistCandidateForm sampleTextProp={''} />
+        <div className="flex w-full items-center justify-center">
+          <div className="flex aspect-square h-8 w-8 animate-bounce items-center justify-center rounded-full bg-gray-50 bg-opacity-[90%] shadow-xl">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              className="h-6 w-6 stroke-green-500"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3"
+              />
+            </svg>
+          </div>
         </div>
       </section>
       <section className="my-4 mb-8 flex flex-col space-y-8">
         <AnimateOnScroll>
-          <div className="my-8 flex w-full flex-row items-center justify-center">
-            <div className="relative mr-4 hidden h-10 w-10 items-center justify-center sm:flex">
-              <Image
-                src={'/assets/vectors/virtual-interview-icon.svg'}
-                alt=""
-                layout="fill"
-                // height="4480"
-                // width="6720"
-                className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
-              />
-            </div>
-            <h2 className="text-3xl font-bold">
-              Jr to Sr and Peer to Peer Interviews
-            </h2>
-          </div>
-        </AnimateOnScroll>
-        <AnimateOnScroll>
-          {/* reappear */}
           <div className="flex w-full flex-row">
-            <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
-              <Image
-                src={'/assets/images/discuss-salary-in-interview-1.jpg'}
-                alt=""
-                layout="fill"
-                // height="4480"
-                // width="6720"
-                className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
-              />
-            </div>
-            <div className="flex w-1/2 flex-col">
-              <h2 className="font-bold">
-                Schedule 1 on 1 interviews with the industries top talent
-              </h2>
-              <p className="text-lg">
-                Looking to take your business to the next level? Our 1 on 1
-                interview service connects you with the top talent in your
-                industry. Whether you&apos;re seeking insights from thought
-                leaders or advice from experienced professionals, we&apos;ll
-                help you find the right match to meet your unique needs. Our
-                process is designed to ensure that you get the most out of your
-                interview, with personalized attention and customized questions
-                tailored to your goals. Get the inside scoop from the best and
-                brightest in your field - schedule your 1 on 1 interview today.
-              </p>
-            </div>
-          </div>
-        </AnimateOnScroll>
-        <AnimateOnScroll>
-          <div className="flex w-full flex-row">
-            <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
-              <Image
-                src={
-                  '/assets/images/UpdateEnglishPronunciation-1116x628-1.webp'
-                }
-                alt=""
-                layout="fill"
-                // height="4480"
-                // width="6720"
-                className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
-              />
-            </div>
-            <div className="flex w-1/2 flex-col">
-              <h2 className="font-bold">Learn during the interview</h2>
-              <p className="text-lg">
-                At our company, we believe that interviews are not just for
-                hiring, but also for learning. Our interview process is designed
-                to give you the opportunity to gain valuable insights and
-                knowledge from the industry&apos;s top talent. Our interviewers
-                are experts in their fields and have a wealth of experience to
-                share with you. With our &quot;learn during the interview&quot;
-                approach, you&apos;ll come away with new ideas, strategies, and
-                perspectives that can help you grow personally and
-                professionally. Whether you&apos;re a seasoned pro or just
-                starting out, we&apos;ll help you expand your knowledge and take
-                your skills to the next level.
-              </p>
-            </div>
-          </div>
-        </AnimateOnScroll>
-        <AnimateOnScroll>
-          <div className="flex w-full flex-row">
-            <div className="relative mr-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
+            <div className="relative mr-4 hidden h-auto w-1/3 items-start justify-center sm:flex">
               <Image
                 src={'/assets/images/content_portrait.jpg'}
                 alt=""
                 layout="fill"
                 // height="4480"
                 // width="6720"
-                className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
+                className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover"
               />
             </div>
-            <div className="flex w-1/2 flex-col">
+            <div className="flex w-2/3 flex-col">
               <h2 className="font-bold">
-                Get reviewed and vetted of your skillset by experienced sr
-                blockchain developers, digital artists and community managers
+                Schedule 1 on 1 interviews with the industries top talent
               </h2>
               <p className="text-lg">
-                Are you a blockchain developer, digital artist, or community
-                manager looking to showcase your skills and get recognized by
-                industry experts? Look no further! Our review and vetting
-                service connects you with experienced senior professionals who
-                will evaluate your skillset and provide feedback to help you
-                improve. Our community consists of seasoned blockchain
-                developers, digital artists, and community managers who have the
-                knowledge and expertise to recognize talent and potential. By
-                getting reviewed and vetted by our community, you&apos;ll
-                receive valuable insights and constructive criticism that will
-                help you refine your skills and stand out in your field. Whether
-                you&apos;re just starting out or looking to take your career to
-                the next level, our service is designed to help you succeed.
-                Don&apos;t wait any longer - get reviewed and vetted by our
-                communities experts today!
+                Our interview process is designed to give you the opportunity to
+                gain valuable insights and knowledge from the industry&apos;s
+                top talent. Our interviewers are experts in their fields and
+                have a wealth of experience to share with you.
               </p>
+              <div className="mt-4 grid w-full grid-cols-2 gap-4 text-lg">
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                </div>
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                </div>
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                </div>
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </AnimateOnScroll>
-      </section>
-      <section className="my-8 flex flex-col items-center space-y-8">
-        <AnimateOnScroll>
-          <div className="my-8 mt-16 flex w-full flex-row items-center justify-center">
-            <div className="relative mr-4 hidden h-10 w-10 items-center justify-center sm:flex">
-              <Image
-                src={'/assets/vectors/virtual-assessment-icon.svg'}
-                alt=""
-                layout="fill"
-                // height="4480"
-                // width="6720"
-                className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
-              />
-            </div>
-            <h2 className="text-3xl font-bold">
-              Community created skill assessments
-            </h2>
           </div>
         </AnimateOnScroll>
         <AnimateOnScroll>
           <div className="flex w-full flex-row-reverse">
-            <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
-              <Image
-                src={
-                  '/assets/images/5-guidelines-for-developing-good-online-assessments-1024x574.jpg'
-                }
-                alt=""
-                layout="fill"
-                // height="4480"
-                // width="6720"
-                className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
-              />
-            </div>
-            <div className="flex w-1/2 flex-col">
-              <h2 className="font-bold">
-                Test yourself against assessments created by Sr web3 employees
-                at household name organizations
-              </h2>
-              <p className="text-lg">
-                Ready to test your skills and knowledge against some of the best
-                in the business? Our assessment service puts you to the test
-                with challenges created by senior web3 employees from household
-                name organizations. Whether you&apos;re a developer, designer,
-                or marketer, our assessments are designed to challenge you and
-                push you to your limits. Our community of experts has years of
-                experience in the industry and has crafted assessments that
-                accurately reflect the skills and knowledge needed to succeed in
-                today&apos;s web3 landscape. By taking our assessments,
-                you&apos;ll not only gain valuable feedback on your strengths
-                and weaknesses, but also the opportunity to showcase your
-                abilities to potential employers. So if you&apos;re looking for
-                a way to take your career to the next level, look no further
-                than our assessment service. Get started today and see how you
-                stack up against the best of the best in web3.
-              </p>
-            </div>
-          </div>
-        </AnimateOnScroll>
-        <AnimateOnScroll>
-          <div className="flex w-full flex-row-reverse">
-            <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
+            <div className="relative ml-4 hidden h-auto w-1/3 items-start justify-center sm:flex">
               <Image
                 src={'/assets/images/www.usnews.jpg'}
                 alt=""
                 layout="fill"
                 // height="4480"
                 // width="6720"
-                className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
+                className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover"
               />
             </div>
-            <div className="flex w-1/2 flex-col">
+            <div className="flex w-2/3 flex-col">
               <h2 className="font-bold">
-                Share your scores with potential employeers
+                Get reviewed and vetted of your skillset by experienced sr
+                blockchain developers, digital artists and community managers
               </h2>
               <p className="text-lg">
-                Are you looking for a way to stand out from the crowd and
-                impress potential employers? Our assessment service not only
-                tests your skills and knowledge but also provides you with the
-                opportunity to share your scores with potential employers. By
-                sharing your scores, you&apos;ll demonstrate your commitment to
-                excellence and your willingness to put your skills to the test.
-                Our assessments are designed by senior web3 employees from top
-                organizations, ensuring that your scores carry weight in the
-                industry. By taking our assessments and sharing your scores,
-                you&apos;ll position yourself as a top candidate for any web3
-                job. Whether you&apos;re just starting out in your career or
-                looking to take it to the next level, our assessment service is
-                the perfect way to showcase your abilities and get noticed by
-                employers. Don&apos;t wait any longer - take our assessments and
-                share your scores today.
+                Our community consists of seasoned blockchain developers,
+                digital artists, and community managers who have the knowledge
+                and expertise to recognize talent and potential. By getting
+                reviewed and vetted by our community, you&apos;ll receive
+                valuable insights and constructive criticism that will help you
+                refine your skills and stand out in your field.
               </p>
-            </div>
-          </div>
-        </AnimateOnScroll>
-        <AnimateOnScroll>
-          <div className="flex w-full flex-row-reverse">
-            <div className="relative ml-4 hidden h-auto w-1/2 items-center justify-center sm:flex">
-              <Image
-                src={'/assets/images/improve_your_skills.jpg'}
-                alt=""
-                layout="fill"
-                // height="4480"
-                // width="6720"
-                className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
-              />
-            </div>
-            <div className="flex w-1/2 flex-col">
-              <h2 className="font-bold">
-                Grow your skills as you test yourself
-              </h2>
-              <p className="text-lg">
-                Ready to take your web3 skills to the next level? Our assessment
-                service not only tests your knowledge and abilities but also
-                helps you grow your skillset as you test yourself. Our
-                assessments are designed to challenge you and push you outside
-                your comfort zone, allowing you to identify areas for
-                improvement and develop new skills. By taking our assessments,
-                you&apos;ll gain valuable insights and feedback from senior web3
-                employees from top organizations. Our assessments cover a wide
-                range of topics, including development, design, and marketing,
-                giving you a well-rounded understanding of the web3 landscape.
-                And as you test yourself and improve your scores, you&apos;ll
-                gain confidence and a sense of accomplishment that will serve
-                you well in your career. So if you&apos;re ready to grow your
-                web3 skillset and test yourself against the best, our assessment
-                service is the perfect place to start.
-              </p>
+              <div className="mt-4 grid w-full grid-cols-2 gap-4 text-lg">
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                </div>
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                </div>
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                </div>
+              </div>
             </div>
           </div>
         </AnimateOnScroll>
       </section>
+      <span className="my-16 block w-full border-t border-black" />
+      <section className="mb-16 box-border flex min-h-[80vh] w-full items-start justify-start py-8">
+        <div className="z-10">
+          <div className="flex flex-col items-start justify-center">
+            <div className="flex flex-col">
+              <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left">
+                Modern Web3 Skill
+              </h1>
+              <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left">
+                Assessments
+              </h1>
+            </div>
+            <p className="my-6">
+              <span role="img" aria-label="rocket">
+                {/* 🚀 */}
+              </span>{' '}
+              Test yourself against assessments created by Sr web3 employees at
+              well known web3 organizations
+            </p>
+          </div>
+          <div className="mt-4 flex">
+            {/* <BaseWaitlistCandidateForm sampleTextProp={''} /> */}
+            <button className="ml-0 mt-4 box-border h-12 w-full rounded bg-gradient-to-r from-green-600 to-green-400 px-8 py-2 text-white shadow-md hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:w-[fit-content]">
+              Get Started
+            </button>
+            <button className="ml-0 mt-4 box-border h-12 w-full rounded border border-gray-700 bg-gray-300 px-8 py-2 text-gray-700 shadow-inner hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:ml-4 sm:w-[fit-content]">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div className="relative mr-4 hidden h-full w-1/2 items-center justify-center sm:flex">
+          {/* <Image
+            src={'/assets/images/UpdateEnglishPronunciation-1116x628-1.webp'}
+            alt=""
+            layout="fill"
+            // height="4480"
+            // width="6720"
+            className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
+          /> */}
+          <div className="flex flex-col space-y-4">
+            <div className="aspect-[16/9] h-[65vh] min-h-[50vh] rounded-lg border border-black bg-gray-50">
+              <div className="relative box-border flex h-full w-full flex-col items-center justify-start overflow-hidden py-2">
+                <div className="flex h-full w-[50%] animate-assessment-1 flex-col space-y-2 bg-gray-50">
+                  <div className="flex w-full flex-col space-y-1 bg-gray-50">
+                    <div className="flex w-full flex-row space-x-1">
+                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                    </div>
+                    <div className="flex w-full flex-row space-x-1">
+                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                    </div>
+                  </div>
+                  <span className="w-full border-t border-black bg-gray-600" />
+                  <div className="flex w-full flex-col space-y-4 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
+                    </div>
+                    <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-green-400" />
+                  </div>
+                </div>
+                <div className="absolute flex h-full w-[50%] animate-assessment-2 flex-col space-y-2 bg-gray-50">
+                  <div className="flex w-full flex-col space-y-1 bg-gray-50">
+                    <div className="flex w-full flex-row space-x-1">
+                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                    </div>
+                    <div className="flex w-full flex-row space-x-1">
+                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                    </div>
+                  </div>
+                  <span className="w-full border-t border-black bg-gray-600" />
+                  <div className="flex w-full flex-col space-y-4 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      </div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
+                    </div>
+                    <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-green-400" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="flex flex-col items-center space-y-8">
+        <AnimateOnScroll>
+          <div className="flex w-full flex-row">
+            <div className="relative mr-4 hidden h-auto w-1/3 items-start justify-center sm:flex">
+              <Image
+                src={'/assets/images/content_portrait.jpg'}
+                alt=""
+                layout="fill"
+                // height="4480"
+                // width="6720"
+                className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover"
+              />
+            </div>
+            <div className="flex w-2/3 flex-col">
+              <h2 className="font-bold">
+                Share your scores with potential employeers
+              </h2>
+              <p className="text-lg">
+                Stand out from the crowd and impress potential employers
+              </p>
+              <div className="mt-4 grid w-full grid-cols-2 gap-4 text-lg">
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>
+                    stand out from the crowd and impress potential employers
+                  </p>
+                </div>
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>
+                    demonstrate your commitment to excellence and your
+                    willingness to put your skills to the test.
+                  </p>
+                </div>
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>
+                    assessments are designed by senior web3 employees from top
+                    organizations, ensuring that your scores carry weight in the
+                    industry.
+                  </p>
+                </div>
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>Position yourself as a top candidate for any web3 job</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </AnimateOnScroll>
+      </section>
+      <span className="my-16 block w-full border-t border-black" />
       <section>
-        <div className="mx-24 mt-16 flex flex-col items-center">
+        <div className="mx-24 flex flex-col items-center">
           <AnimateOnScroll>
             <h2 className="mb-4 text-3xl font-bold">About Highered</h2>
           </AnimateOnScroll>
@@ -312,7 +786,7 @@ const Index = () => {
                 layout="fill"
                 // height="4480"
                 // width="6720"
-                className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
+                className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover"
               />
             </div>
           </AnimateOnScroll>
@@ -356,7 +830,65 @@ const Index = () => {
           </AnimateOnScroll>
         </div>
       </section>
-      {/* <section className="flex flex-row bg-green-50">
+      <span className="my-16 block w-full border-t border-black" />
+      <section>
+        <div className="flex flex-col items-center">
+          <AnimateOnScroll>
+            <h2 className="mb-4 text-3xl font-bold">From the Blog</h2>
+          </AnimateOnScroll>
+          <div className="flex space-y-2 space-x-0 sm:space-y-0 sm:space-x-4">
+            <AnimateOnScroll>
+              <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
+                <Image
+                  src={'/assets/images/Web-3-2.jpg'}
+                  alt=""
+                  layout="fill"
+                  // height="4480"
+                  // width="6720"
+                  className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
+                />
+                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
+                  <h3>Text</h3>
+                  <p>Abcdefghig</p>
+                </div>
+              </div>
+            </AnimateOnScroll>
+            <AnimateOnScroll>
+              <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
+                <Image
+                  src={'/assets/images/Web-3-2.jpg'}
+                  alt=""
+                  layout="fill"
+                  // height="4480"
+                  // width="6720"
+                  className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
+                />
+                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
+                  <h3>Text</h3>
+                  <p>Abcdefghig</p>
+                </div>
+              </div>
+            </AnimateOnScroll>
+            <AnimateOnScroll>
+              <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
+                <Image
+                  src={'/assets/images/Web-3-2.jpg'}
+                  alt=""
+                  layout="fill"
+                  // height="4480"
+                  // width="6720"
+                  className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
+                />
+                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
+                  <h3>Text</h3>
+                  <p>Abcdefghig</p>
+                </div>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+      {/* <section className="flex flex-row bg-gray-50">
         <div className="relative hidden w-2/5 items-center justify-center sm:flex">
           <Image
             src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}

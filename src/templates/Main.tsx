@@ -68,7 +68,7 @@ const Main = (props: IMainProps) => {
   }, []);
 
   return (
-    <div className="w-full bg-gradient-to-b from-[#EFEFEF] to-[#EFEFEF]/0 px-1 text-gray-700 antialiased">
+    <div className="w-full overflow-hidden bg-gradient-to-b from-[#EFEFEF] to-[#EFEFEF]/0 px-1 text-gray-700 antialiased">
       {props.meta}
 
       <div className="mx-auto box-border p-5">
@@ -88,6 +88,16 @@ const Main = (props: IMainProps) => {
                     // width="6720"
                     className="relative flex w-4 items-center justify-center object-cover"
                   />
+                </Link>
+              </li>
+              <li className="mr-6">
+                <Link
+                  href="/learn"
+                  className={`${
+                    pageName === 'learn' ? 'underline' : ''
+                  } border-none text-gray-800 hover:text-gray-900`}
+                >
+                  Learn
                 </Link>
               </li>
               <li className="mr-6">
@@ -114,9 +124,9 @@ const Main = (props: IMainProps) => {
           </div>
         </div>
 
-        <div className="content py-5 text-xl">{props.children}</div>
-
-        <section>
+        <div className="content text-xl">{props.children}</div>
+        <span className="my-16 block w-full border-t border-black" />
+        <section className="mb-16">
           <BaseCta />
         </section>
 
@@ -134,11 +144,12 @@ const Main = (props: IMainProps) => {
               className="relative flex w-4 items-center justify-center object-cover"
             />
           </Link>
-          <p className="my-2 font-bold">{AppConfig.title}</p>
+          <p className="mt-2 text-base font-bold">{AppConfig.title}</p>
           <p>Building the modern workforce acquisition tool</p>
-          <ul className="my-2 flex w-full flex-col items-center justify-between sm:flex-row">
+          <ul className="my-2 flex w-full flex-col items-start justify-between sm:flex-row">
             <li>
               <div className="flex flex-col items-start">
+                <h3 className="text-base font-bold text-gray-700">Use Cases</h3>
                 <Link
                   href="/"
                   className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
@@ -155,6 +166,13 @@ const Main = (props: IMainProps) => {
             </li>
             <li>
               <div className="flex flex-col items-start">
+                <h3 className="text-base font-bold text-gray-800">About</h3>
+                <Link
+                  href="/learn"
+                  className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
+                >
+                  Learn
+                </Link>
                 <Link
                   href="/blog"
                   className="mb-4 border-none text-gray-800 hover:text-gray-900 sm:mb-0"
@@ -170,12 +188,12 @@ const Main = (props: IMainProps) => {
               </div>
             </li>
             <li className="flex flex-row items-center">
-              {pageName === 'candidates' ? (
+              {pageName !== 'hiring' ? (
                 <BaseWaitlistCandidateForm sampleTextProp={''} />
               ) : (
                 <></>
               )}
-              {pageName === 'companies' ? (
+              {pageName === 'hiring' ? (
                 <BaseWaitlistCompanyForm sampleTextProp={''} />
               ) : (
                 <></>

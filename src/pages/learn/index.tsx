@@ -36,7 +36,9 @@ const LearningCenter = () => {
       <section className="mt-8">
         <div className="flex flex-col items-center">
           <AnimateOnScroll>
-            <h2 className="mb-4 text-3xl font-bold">From the Blog</h2>
+            <h2 className="mb-4 text-3xl font-bold text-gray-900">
+              From the Blog
+            </h2>
           </AnimateOnScroll>
           <div className="grid grid-cols-1 space-y-2 space-x-0 sm:grid-cols-3 sm:space-y-0 sm:space-x-4">
             <AnimateOnScroll>
@@ -49,8 +51,8 @@ const LearningCenter = () => {
                   // width="6720"
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
-                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
-                  <h3 className="text-2xl font-bold">Text</h3>
+                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl  bg-gray-50 p-4 opacity-90">
+                  <h3 className="text-2xl font-bold text-gray-800">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
               </div>
@@ -65,8 +67,8 @@ const LearningCenter = () => {
                   // width="6720"
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
-                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
-                  <h3 className="text-2xl font-bold">Text</h3>
+                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl  bg-gray-50 p-4 opacity-90">
+                  <h3 className="text-2xl font-bold text-gray-800">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
               </div>
@@ -83,8 +85,8 @@ const LearningCenter = () => {
                   // width="6720"
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
-                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
-                  <h3 className="text-2xl font-bold">Text</h3>
+                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl  bg-gray-50 p-4 opacity-90">
+                  <h3 className="text-2xl font-bold text-gray-800">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
               </div>

@@ -59,76 +59,76 @@ const Index = () => {
           </div>
           <div className="relative mr-4 hidden h-full w-1/2 items-center justify-center sm:flex">
             <div className="flex flex-col space-y-4">
-              <div className="aspect-[16/9] h-[65vh] min-h-[50vh] overflow-hidden rounded-lg border border-black bg-gray-50">
-                <div className="h-[10%] w-full rounded-t-lg border-b border-black bg-gray-50">
+              <div className="aspect-[16/9] h-[65vh] min-h-[50vh] overflow-hidden rounded-lg border border-gray-500 ">
+                <div className="h-[10%] w-full rounded-t-lg border-b border-gray-500 ">
                   <div className="box-border flex h-full w-full items-center justify-end space-x-2 pr-2">
-                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-gray-500 ">
                       v
                     </div>
-                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-gray-500 ">
                       v
                     </div>
-                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-gray-500 ">
                       v
                     </div>
-                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                    <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-gray-500 ">
                       v
                     </div>
                   </div>
                 </div>
                 <div className="flex h-[90%] w-full flex-row rounded-b-lg">
-                  <div className="h-auto w-[0%] animate-filepicker rounded-bl-lg border-r-0 border-black bg-gray-50">
+                  <div className="h-auto w-[0%] animate-filepicker rounded-bl-lg border-r-0 border-gray-500 ">
                     <div className="box-border flex h-full w-full flex-col space-y-1 p-2">
-                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
-                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
                       <div className="box-border w-full pl-6">
-                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
-                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
-                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
                       <div className="box-border w-full pl-6">
-                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
-                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
-                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
-                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
-                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
+                      <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
                     </div>
                   </div>
-                  <div className="flex h-auto w-[0%] animate-editor flex-col rounded-br-lg bg-gray-50">
-                    <div className="mt-[-2rem] ml-[-1px] flex h-[2rem] w-[20%] animate-editor-tab items-center justify-start rounded-t-lg border border-b-0 border-black bg-gray-50">
-                      <span className="mx-2 h-[60%] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
+                  <div className="flex h-auto w-[0%] animate-editor flex-col rounded-br-lg ">
+                    <div className="mt-[-2rem] ml-[-1px] flex h-[2rem] w-[20%] animate-editor-tab items-center justify-start rounded-t-lg border border-b-0 border-gray-500 ">
+                      <span className="mx-2 h-[60%] w-[70%] max-w-[4rem] rounded-full bg-gray-300" />
                     </div>
                     <div className="box-border flex h-[65%] w-full animate-editor-contents flex-col space-y-1 py-2">
                       <div className=" box-border flex w-full flex-row space-x-1 pl-2">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                       <div className="box-border flex w-full flex-row space-x-1 pl-6">
-                        <span className="box-border h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[35%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="box-border h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[35%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                     </div>
-                    <div className="h-[35%] w-full animate-terminal border-t border-black bg-gray-50"></div>
+                    <div className="h-[35%] w-full animate-terminal border-t border-gray-500 "></div>
                   </div>
-                  <div className="h-auto w-[100%] animate-video rounded-b-lg bg-gray-50"></div>
-                  <div className="h-auto w-[0%] animate-chat rounded-br-lg border-l-0 border-black bg-gray-50">
+                  <div className="h-auto w-[100%] animate-video rounded-b-lg "></div>
+                  <div className="h-auto w-[0%] animate-chat rounded-br-lg border-l-0 border-gray-500 ">
                     <div className="box-border flex h-full w-full flex-col py-2">
                       <div className="box-border flex h-[90%] w-full flex-col justify-end space-y-1 p-2">
                         <div className="flex w-full justify-end">
-                          <span className="box-border h-[1rem] w-[60%] rounded-xl bg-gray-600" />
+                          <span className="box-border h-[1rem] w-[60%] rounded-xl bg-gray-300" />
                         </div>
                         <div className="flex w-full justify-start">
-                          <span className="box-border h-[1rem] w-[40%] rounded-full bg-gray-600" />
+                          <span className="box-border h-[1rem] w-[40%] rounded-full bg-gray-300" />
                         </div>
                       </div>
                       <div className="box-border flex h-[10%] w-full flex-row px-2">
-                        <div className="h-[1.4rem] w-[100%] rounded-full border border-black bg-transparent">
-                          <span className="box-border h-[1rem] w-[40%] rounded-full bg-gray-50" />
+                        <div className="h-[1.4rem] w-[100%] rounded-full border border-gray-500 bg-transparent">
+                          <span className="box-border h-[1rem] w-[40%] rounded-full " />
                         </div>
                       </div>
                     </div>
@@ -139,7 +139,7 @@ const Index = () => {
           </div>
         </div>
         <div className="flex w-full items-center justify-center">
-          <div className="flex aspect-square h-8 w-8 animate-bounce items-center justify-center rounded-full bg-gray-50 bg-opacity-[90%] shadow-xl">
+          <div className="flex aspect-square h-8 w-8 animate-bounce items-center justify-center rounded-full  bg-opacity-[90%] shadow-xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -341,7 +341,7 @@ const Index = () => {
           </div>
         </AnimateOnScroll>
       </section>
-      <span className="my-16 block w-full border-t border-black" />
+      <span className="my-16 block w-full border-t border-gray-500" />
       <section className="mb-16 box-border flex min-h-[80vh] w-full items-start justify-start py-8">
         <div className="z-10">
           <div className="flex flex-col items-start justify-center">
@@ -473,266 +473,266 @@ const Index = () => {
             className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
           /> */}
           <div className="flex flex-col space-y-4">
-            <div className="aspect-[16/9] h-[65vh] min-h-[50vh] overflow-hidden rounded-lg border border-black bg-gray-50">
+            <div className="aspect-[16/9] h-[65vh] min-h-[50vh] overflow-hidden rounded-lg border border-gray-500 ">
               <div className="relative box-border flex h-full w-full flex-col items-center justify-start overflow-hidden py-2">
-                <div className="flex h-full w-[50%] animate-assessment-1 flex-col space-y-2 bg-gray-50">
-                  <div className="flex w-full flex-col space-y-1 bg-gray-50">
+                <div className="flex h-full w-[50%] animate-assessment-1 flex-col space-y-2 ">
+                  <div className="flex w-full flex-col space-y-1 ">
                     <div className="flex w-full flex-row space-x-1">
-                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                      <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                      <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                     </div>
                     <div className="flex w-full flex-row space-x-1">
-                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
                     </div>
                   </div>
-                  <span className="w-full border-t border-black bg-gray-600" />
-                  <div className="flex w-full flex-col space-y-4 bg-gray-50">
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                  <span className="w-full border-t border-gray-500 bg-gray-300" />
+                  <div className="flex w-full flex-col space-y-4 ">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                       <div className="flex w-full flex-col space-y-1">
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
                           <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
                         </div>
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
                       </div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                       <div className="flex w-full flex-col space-y-1">
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
                           <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
                         </div>
                       </div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                       <div className="flex w-full flex-col space-y-1">
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
                           <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
                         </div>
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
                       </div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                       <div className="flex w-full flex-col space-y-1">
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
                           <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
                         </div>
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
                       </div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
-                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-gray-500"></div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                       <div className="flex w-full flex-col space-y-1">
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
                           <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
                         </div>
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
                       </div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                       <div className="flex w-full flex-col space-y-1">
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
                           <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
                         </div>
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
                       </div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
-                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-gray-500"></div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
-                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-gray-500"></div>
                     </div>
                     <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-green-400" />
                   </div>
                 </div>
-                <div className="absolute flex h-full w-[50%] animate-assessment-2 flex-col space-y-2 bg-gray-50">
-                  <div className="flex w-full flex-col space-y-1 bg-gray-50">
+                <div className="absolute flex h-full w-[50%] animate-assessment-2 flex-col space-y-2 ">
+                  <div className="flex w-full flex-col space-y-1 ">
                     <div className="flex w-full flex-row space-x-1">
-                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                      <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                      <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                     </div>
                     <div className="flex w-full flex-row space-x-1">
-                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
+                      <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                      <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
                     </div>
                   </div>
-                  <span className="w-full border-t border-black bg-gray-600" />
-                  <div className="flex w-full flex-col space-y-4 bg-gray-50">
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                  <span className="w-full border-t border-gray-500 bg-gray-300" />
+                  <div className="flex w-full flex-col space-y-4 ">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                       <div className="flex w-full flex-col space-y-1">
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
                           <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
                         </div>
                       </div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                       <div className="flex w-full flex-col space-y-1">
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
                           <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
                         </div>
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
                       </div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                       <div className="flex w-full flex-col space-y-1">
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
                           <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
                         </div>
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
                       </div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
                       <div className="flex w-full flex-col space-y-1">
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
-                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
-                      <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
-                      </div>
-                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
-                    </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
-                      <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
-                      </div>
-                      <div className="flex w-full flex-col space-y-1">
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
-                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
-                        </div>
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                      </div>
-                    </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
-                      <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
-                      </div>
-                      <div className="flex w-full flex-col space-y-1">
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black" />
-                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-black">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
                           <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
                         </div>
                       </div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
-                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-gray-500"></div>
                     </div>
-                    <div className="flex w-full flex-col space-y-2 bg-gray-50">
+                    <div className="flex w-full flex-col space-y-2 ">
                       <div className="flex w-full flex-row space-x-1">
-                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-600" />
-                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-600" />
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
                       </div>
-                      <div className="flex h-[5rem] w-full rounded-xl border border-black"></div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 ">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
+                      </div>
+                      <div className="flex w-full flex-col space-y-1">
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <span className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500" />
+                        <div className="flex h-[1rem] w-[1rem] items-center justify-center rounded-full border border-gray-500">
+                          <span className="h-[0.5rem] w-[0.5rem] rounded-full bg-green-400" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 ">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
+                      </div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-gray-500"></div>
+                    </div>
+                    <div className="flex w-full flex-col space-y-2 ">
+                      <div className="flex w-full flex-row space-x-1">
+                        <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[30%] max-w-[4rem] rounded-full bg-gray-300" />
+                        <span className="h-[1rem] w-[20%] max-w-[4rem] rounded-full bg-gray-300" />
+                      </div>
+                      <div className="flex h-[5rem] w-full rounded-xl border border-gray-500"></div>
                     </div>
                     <span className="h-[1rem] w-[10%] max-w-[4rem] rounded-full bg-green-400" />
                   </div>
@@ -851,7 +851,7 @@ const Index = () => {
           </div>
         </AnimateOnScroll>
       </section>
-      <span className="my-16 block w-full border-t border-black" />
+      <span className="my-16 block w-full border-t border-gray-500" />
       <section>
         <div className="mx-24 flex flex-col items-center">
           <AnimateOnScroll>
@@ -911,7 +911,7 @@ const Index = () => {
           </AnimateOnScroll>
         </div>
       </section>
-      <span className="my-16 block w-full border-t border-black" />
+      <span className="my-16 block w-full border-t border-gray-500" />
       <section>
         <div className="flex flex-col items-center">
           <AnimateOnScroll>
@@ -930,7 +930,7 @@ const Index = () => {
                   // width="6720"
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
-                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
+                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl  bg-gray-50 p-4 opacity-90">
                   <h3 className="text-2xl font-bold text-gray-800">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
@@ -946,7 +946,7 @@ const Index = () => {
                   // width="6720"
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
-                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
+                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl  bg-gray-50 p-4 opacity-90">
                   <h3 className="text-2xl font-bold text-gray-800">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
@@ -964,7 +964,7 @@ const Index = () => {
                   // width="6720"
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
-                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
+                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl  bg-gray-50 p-4 opacity-90">
                   <h3 className="text-2xl font-bold text-gray-800">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
@@ -973,7 +973,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/* <section className="flex flex-row bg-gray-50">
+      {/* <section className="flex flex-row ">
         <div className="relative hidden w-2/5 items-center justify-center sm:flex">
           <Image
             src={'/assets/images/beautiful-woman-suit-happily-greets-man.jpg'}

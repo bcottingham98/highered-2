@@ -28,25 +28,25 @@ export default function BaseCta() {
             </div>
             <div className="relative mr-4 box-border hidden h-full w-1/2 items-center justify-center py-8 sm:flex">
               <div className="ml-4 flex flex-col space-y-4">
-                <div className="aspect-[16/9] h-[65vh] min-h-[50vh] overflow-hidden rounded-lg border border-black bg-gray-50">
-                  <div className="h-[10%] w-full rounded-t-lg border-b border-black bg-gray-50">
+                <div className="aspect-[16/9] h-[65vh] min-h-[50vh] overflow-hidden rounded-lg border border-gray-600 bg-gray-50">
+                  <div className="h-[10%] w-full rounded-t-lg border-b border-gray-600 bg-gray-50">
                     <div className="box-border flex h-full w-full items-center justify-end space-x-2 pr-2">
-                      <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                      <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-gray-600 bg-gray-50">
                         v
                       </div>
-                      <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                      <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-gray-600 bg-gray-50">
                         v
                       </div>
-                      <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                      <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-gray-600 bg-gray-50">
                         v
                       </div>
-                      <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-black bg-gray-50">
+                      <div className="flex aspect-square h-[80%] items-center justify-center rounded-full border border-gray-600 bg-gray-50">
                         v
                       </div>
                     </div>
                   </div>
                   <div className="flex h-[90%] w-full flex-row rounded-b-lg">
-                    <div className="h-auto w-[0%] animate-filepicker rounded-bl-lg border-r-0 border-black bg-gray-50">
+                    <div className="h-auto w-[0%] animate-filepicker rounded-bl-lg border-r-0 border-gray-600 bg-gray-50">
                       <div className="box-border flex h-full w-full flex-col space-y-1 p-2">
                         <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
                         <span className="h-[1rem] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
@@ -67,7 +67,7 @@ export default function BaseCta() {
                       </div>
                     </div>
                     <div className="flex h-auto w-[0%] animate-editor flex-col rounded-br-lg bg-gray-50">
-                      <div className="mt-[-2rem] ml-[-1px] flex h-[2rem] w-[20%] animate-editor-tab items-center justify-start rounded-t-lg border border-b-0 border-black bg-gray-50">
+                      <div className="mt-[-2rem] ml-[-1px] flex h-[2rem] w-[20%] animate-editor-tab items-center justify-start rounded-t-lg border border-b-0 border-gray-600 bg-gray-50">
                         <span className="mx-2 h-[60%] w-[70%] max-w-[4rem] rounded-full bg-gray-600" />
                       </div>
                       <div className="box-border flex h-[65%] w-full animate-editor-contents flex-col space-y-1 py-2">
@@ -82,10 +82,10 @@ export default function BaseCta() {
                           <span className="h-[1rem] w-[35%] max-w-[4rem] rounded-full bg-gray-600" />
                         </div>
                       </div>
-                      <div className="h-[35%] w-full animate-terminal border-t border-black bg-gray-50"></div>
+                      <div className="h-[35%] w-full animate-terminal border-t border-gray-600 bg-gray-50"></div>
                     </div>
                     <div className="h-auto w-[100%] animate-video rounded-b-lg bg-gray-50"></div>
-                    <div className="h-auto w-[0%] animate-chat rounded-br-lg border-l-0 border-black bg-gray-50">
+                    <div className="h-auto w-[0%] animate-chat rounded-br-lg border-l-0 border-gray-600 bg-gray-50">
                       <div className="box-border flex h-full w-full flex-col py-2">
                         <div className="box-border flex h-[90%] w-full flex-col justify-end space-y-1 p-2">
                           <div className="flex w-full justify-end">
@@ -96,7 +96,7 @@ export default function BaseCta() {
                           </div>
                         </div>
                         <div className="box-border flex h-[10%] w-full flex-row px-2">
-                          <div className="h-[1.4rem] w-[100%] rounded-full border border-black bg-transparent">
+                          <div className="h-[1.4rem] w-[100%] rounded-full border border-gray-600 bg-transparent">
                             <span className="box-border h-[1rem] w-[40%] rounded-full bg-gray-50" />
                           </div>
                         </div>

@@ -11,8 +11,7 @@ const featuredPost = {
     'Libero neque aenean tincidunt nec consequat tempor. Viverra odio id velit adipiscing id. Nisi vestibulum orci eget bibendum dictum. Velit viverra posuere vulputate volutpat nunc. Nunc netus sit faucibus.',
   date: 'Mar 16, 2020',
   datetime: '2020-03-16',
-  imageUrl:
-    'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+  imageUrl: '/assets/images/Web-3-2.jpg',
   author: {
     name: 'Michael Foster',
     href: '#',
@@ -29,8 +28,7 @@ const posts = [
       'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
     date: 'Mar 10, 2020',
     datetime: '2020-03-16',
-    imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+    imageUrl: '/assets/images/improve_your_skills.jpg',
     category: { title: 'Marketing', href: '#' },
     author: {
       name: 'Lindsay Walton',
@@ -48,7 +46,7 @@ const posts = [
     date: 'Mar 10, 2020',
     datetime: '2020-03-16',
     imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+      '/assets/images/portrait-smiling-hr-manager-having-interview-with-candidate.jpg',
     category: { title: 'Marketing', href: '#' },
     author: {
       name: 'Lindsay Walton',
@@ -71,9 +69,7 @@ const Blog = () => (
     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
       Recent
     </h2>
-    <p className="text-lg leading-8 text-gray-600">
-      Learn how to grow your business with our expert advice.
-    </p>
+    <p className="text-lg leading-8 text-gray-600">Read our recent articles.</p>
     <div className="py-4">
       <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-12 sm:gap-y-16 lg:grid-cols-2">
         <article className="mx-auto w-full max-w-2xl lg:mx-0 lg:max-w-none">
@@ -185,7 +181,7 @@ const Blog = () => (
             All blog posts
           </h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
-            Learn how to grow your business with our expert advice.
+            Read all our blog posts
           </p>
           <div className="mt-2 space-y-16 border-t border-gray-200 pt-2 sm:mt-2 sm:pt-2">
             {posts.map((post) => (

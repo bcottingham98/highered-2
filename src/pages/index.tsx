@@ -378,7 +378,7 @@ const Index = () => {
                   />
                 </svg>
               </div>
-              <p>
+              <p className="text-gray-800">
                 Whether you&apos;re a developer, designer, or marketer, our
                 assessments are designed to challenge you and push you to your
                 limits.
@@ -400,7 +400,7 @@ const Index = () => {
                   />
                 </svg>
               </div>
-              <p>
+              <p className="text-gray-800">
                 Our community of experts has years of experience in the industry
               </p>
             </div>
@@ -420,7 +420,7 @@ const Index = () => {
                   />
                 </svg>
               </div>
-              <p>
+              <p className="text-gray-800">
                 assessments that accurately reflect the skills and knowledge
                 needed to succeed in today&apos;s web3 landscape
               </p>
@@ -441,7 +441,9 @@ const Index = () => {
                   />
                 </svg>
               </div>
-              <p>gain valuable feedback on your strengths and weaknesses</p>
+              <p className="text-gray-800">
+                gain valuable feedback on your strengths and weaknesses
+              </p>
             </div>
             <div className="flex flex-row">
               <div className="box-border pr-4">
@@ -459,7 +461,9 @@ const Index = () => {
                   />
                 </svg>
               </div>
-              <p>showcase your abilities to potential employers</p>
+              <p className="text-gray-800">
+                showcase your abilities to potential employers
+              </p>
             </div>
           </div>
         </div>

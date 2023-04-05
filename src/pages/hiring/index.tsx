@@ -723,7 +723,9 @@ const Companies = () => {
             <AnimateOnScroll>
               <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
                 <Image
-                  src={'/assets/images/Web-3-2.jpg'}
+                  src={
+                    '/assets/images/Woman-in-office-taking-part-in-interview-asessment-on-laptop.jpg.optimal.jpg'
+                  }
                   alt=""
                   layout="fill"
                   // height="4480"
@@ -739,7 +741,9 @@ const Companies = () => {
             <AnimateOnScroll>
               <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
                 <Image
-                  src={'/assets/images/Web-3-2.jpg'}
+                  src={
+                    '/assets/images/portrait-smiling-hr-manager-having-interview-with-candidate.jpg'
+                  }
                   alt=""
                   layout="fill"
                   // height="4480"

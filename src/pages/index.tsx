@@ -871,39 +871,46 @@ const Index = () => {
                 layout="fill"
                 // height="4480"
                 // width="6720"
-                className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover"
+                className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-xl"
               />
             </div>
           </AnimateOnScroll>
           <AnimateOnScroll>
             <p className="mx-4 text-lg sm:mx-16">
-              <span className="font-bold">&nbsp;&nbsp;&nbsp;&nbsp;H</span>
+              <span className="text-2xl font-bold">
+                &nbsp;&nbsp;&nbsp;&nbsp;H
+              </span>
               ighered is a unique community-driven website that aims to connect
               recruiters from startups with small teams that have had
               difficulties finding qualified web3 candidates for their
               organizations. The platform also helps candidates looking for jobs
               within the web3 community, who have struggled to find employment
               due to either lack of skills or inadequate ability to express
-              themselves fully. The website connects recruiters to a database of
-              qualified, vetted candidates, making it easier for them to find
-              suitable candidates for their open positions. Additionally,
-              Highered helps candidates learn blockchain code and integrate
-              themselves into the web3 community through qualifying interviews
-              and assessments. This creates a win-win scenario where recruiters
-              get access to a pool of talented candidates, and candidates get an
-              opportunity to develop their skills and showcase their expertise.
-              The platform connects senior web3 developers with junior web3
-              developers, as well as those who are looking to enter the web3
-              community, for digital informational qualifying interviews. It
-              also allows developers to test themselves against other community
-              member-created problem sets and assessments. This creates a
-              supportive environment where developers can learn from each other
-              and develop their skills faster. The ultimate goal of Highered is
-              to grow the talent pool within the web3 community and connect
-              qualified candidates with startups faster. This would help bridge
-              the gap between recruiters and candidates, making it easier for
-              startups to find the right talent and for candidates to find the
-              right job opportunities. In summary, Highered is a
+              themselves fully. <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;The website connects recruiters to a
+              database of qualified, vetted candidates, making it easier for
+              them to find suitable candidates for their open positions.
+              Additionally, Highered helps candidates learn blockchain code and
+              integrate themselves into the web3 community through qualifying
+              interviews and assessments. This creates a win-win scenario where
+              recruiters get access to a pool of talented candidates, and
+              candidates get an opportunity to develop their skills and showcase
+              their expertise. The platform connects senior web3 developers with
+              junior web3 developers, as well as those who are looking to enter
+              the web3 community, for digital informational qualifying
+              interviews. It also allows developers to test themselves against
+              other community member-created problem sets and assessments. This
+              creates a supportive environment where developers can learn from
+              each other and develop their skills faster.
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp; The ultimate goal of Highered is to grow
+              the talent pool within the web3 community and connect qualified
+              candidates with startups faster. This would help bridge the gap
+              between recruiters and candidates, making it easier for startups
+              to find the right talent and for candidates to find the right job
+              opportunities.
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp; In summary, Highered is a
               community-driven website that helps to connect recruiters with
               talented web3 candidates while also helping candidates develop
               their skills and showcase their expertise. The platform fosters a

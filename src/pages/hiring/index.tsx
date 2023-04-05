@@ -82,25 +82,25 @@ const Companies = () => {
                         <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                         <div className="flex w-full flex-col space-y-1">
                           <div className="flex w-full">
-                            <span className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500" />
+                            <span className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500" />
                             <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                           </div>
                           <div className="flex w-full">
-                            <span className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500" />
+                            <span className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500" />
                             <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                           </div>
                           <div className="flex w-full">
-                            <span className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500" />
+                            <span className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500" />
                             <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                           </div>
                           <div className="flex w-full">
-                            <div className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500 bg-green-400">
+                            <div className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500 bg-green-400">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 strokeWidth={1.5}
-                                className="h-4 w-4 stroke-white"
+                                className="animate-check stroke-white"
                               >
                                 <path
                                   strokeLinecap="round"
@@ -117,17 +117,17 @@ const Companies = () => {
                         <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                         <div className="flex w-full flex-col space-y-1">
                           <div className="flex w-full">
-                            <span className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500" />
+                            <span className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500" />
                             <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                           </div>
                           <div className="flex w-full">
-                            <div className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500 bg-green-400">
+                            <div className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500 bg-green-400">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 strokeWidth={1.5}
-                                className="h-4 w-4 stroke-white"
+                                className="animate-check stroke-white"
                               >
                                 <path
                                   strokeLinecap="round"
@@ -139,11 +139,11 @@ const Companies = () => {
                             <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                           </div>
                           <div className="flex w-full">
-                            <span className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500" />
+                            <span className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500" />
                             <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                           </div>
                           <div className="flex w-full">
-                            <span className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500" />
+                            <span className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500" />
                             <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                           </div>
                         </div>
@@ -152,13 +152,13 @@ const Companies = () => {
                         <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                         <div className="flex w-full flex-col space-y-1">
                           <div className="flex w-full">
-                            <div className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500 bg-green-400">
+                            <div className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500 bg-green-400">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 strokeWidth={1.5}
-                                className="h-4 w-4 stroke-white"
+                                className="animate-check stroke-white"
                               >
                                 <path
                                   strokeLinecap="round"
@@ -170,21 +170,21 @@ const Companies = () => {
                             <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                           </div>
                           <div className="flex w-full">
-                            <span className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500" />
+                            <span className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500" />
                             <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                           </div>
                           <div className="flex w-full">
-                            <span className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500" />
+                            <span className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500" />
                             <span className="h-[1rem] w-[40%] max-w-[4rem] rounded-full bg-gray-300" />
                           </div>
                           <div className="flex w-full">
-                            <div className="mr-2 flex h-[1rem] w-[1rem] items-center justify-center rounded-sm border border-gray-500 bg-green-400">
+                            <div className="mr-2 flex h-[1rem] w-[1rem] animate-checkbox items-center justify-center rounded-sm border border-gray-500 bg-green-400">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 strokeWidth={1.5}
-                                className="h-4 w-4 stroke-white"
+                                className="animate-check stroke-white"
                               >
                                 <path
                                   strokeLinecap="round"
@@ -425,10 +425,10 @@ const Companies = () => {
                         <div className="z-10 -mt-8 box-border flex h-[2rem] w-[20%] items-center justify-start rounded-t-xl border border-b-0 border-gray-500  p-1">
                           <span className="block h-[1rem] w-[20%] rounded-full bg-gray-300" />
                         </div>
-                        <div className="-mt-8 -ml-2 box-border flex h-[2rem] w-[20%] items-center justify-start rounded-t-xl border border-gray-500  p-1">
+                        <div className="-mt-8 box-border flex h-[2rem] w-[20%] items-center justify-start rounded-t-xl border border-gray-500  p-1">
                           <span className="block h-[1rem] w-[20%] rounded-full bg-gray-300" />
                         </div>
-                        <div className="-mt-8 -ml-2 box-border flex  h-[2rem] w-[20%] items-center justify-start rounded-t-xl border border-gray-500  p-1">
+                        <div className="-mt-8 box-border flex  h-[2rem] w-[20%] items-center justify-start rounded-t-xl border border-gray-500  p-1">
                           <span className="block h-[1rem] w-[20%] rounded-full bg-gray-300" />
                         </div>
                       </div>

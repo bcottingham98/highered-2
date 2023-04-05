@@ -27,12 +27,6 @@ const Index = () => {
         />
       }
     >
-      {/* <a href="https://github.com/ixartz/Next-js-Boilerplate">
-        <img
-          src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
-          alt="Nextjs starter banner"
-        />
-      </a> */}
       <section className="my-8 mb-16 flex min-h-[80vh] w-full flex-col items-start justify-start">
         <div className="flex min-h-[80vh] w-full items-start justify-start">
           <div className="z-10">
@@ -45,7 +39,7 @@ const Index = () => {
                   Interviews
                 </h1>
               </div>
-              <p className="my-6">
+              <p className="my-6 text-gray-900">
                 <span role="img" aria-label="rocket">
                   {/* 🚀 */}
                 </span>{' '}
@@ -55,7 +49,6 @@ const Index = () => {
               </p>
             </div>
             <div className="mt-4 flex">
-              {/* <BaseWaitlistCandidateForm sampleTextProp={''} /> */}
               <button className="ml-0 mt-4 box-border h-12 w-full rounded bg-gradient-to-r from-green-600 to-green-400 px-8 py-2 text-white shadow-md hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:w-[fit-content]">
                 Get Started
               </button>
@@ -65,14 +58,6 @@ const Index = () => {
             </div>
           </div>
           <div className="relative mr-4 hidden h-full w-1/2 items-center justify-center sm:flex">
-            {/* <Image
-            src={'/assets/images/UpdateEnglishPronunciation-1116x628-1.webp'}
-            alt=""
-            layout="fill"
-            // height="4480"
-            // width="6720"
-            className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
-          /> */}
             <div className="flex flex-col space-y-4">
               <div className="aspect-[16/9] h-[65vh] min-h-[50vh] overflow-hidden rounded-lg border border-black bg-gray-50">
                 <div className="h-[10%] w-full rounded-t-lg border-b border-black bg-gray-50">
@@ -185,7 +170,7 @@ const Index = () => {
               />
             </div>
             <div className="flex w-2/3 flex-col">
-              <h2 className="font-bold">
+              <h2 className="font-bold text-gray-800">
                 Schedule one on one interviews with the industries top talent
               </h2>
               <p className="text-lg">
@@ -284,7 +269,7 @@ const Index = () => {
               />
             </div>
             <div className="flex w-2/3 flex-col">
-              <h2 className="font-bold">
+              <h2 className="font-bold text-gray-800">
                 Get reviewed and vetted of your skillset by experienced senior
                 blockchain developers, digital artists and community managers
               </h2>
@@ -368,7 +353,7 @@ const Index = () => {
                 Assessments
               </h1>
             </div>
-            <p className="mt-6">
+            <p className="mt-6 text-gray-800">
               <span role="img" aria-label="rocket">
                 {/* 🚀 */}
               </span>{' '}
@@ -773,7 +758,7 @@ const Index = () => {
               />
             </div>
             <div className="flex w-2/3 flex-col">
-              <h2 className="font-bold">
+              <h2 className="font-bold text-gray-800">
                 Share your scores with potential employeers
               </h2>
               <p className="text-lg">
@@ -870,7 +855,9 @@ const Index = () => {
       <section>
         <div className="mx-24 flex flex-col items-center">
           <AnimateOnScroll>
-            <h2 className="mb-4 text-3xl font-bold">About Highered</h2>
+            <h2 className="mb-4 text-3xl font-bold text-gray-800">
+              About Highered
+            </h2>
           </AnimateOnScroll>
           <AnimateOnScroll fullWidth>
             <div className="relative mb-4 hidden h-auto w-full items-center justify-center sm:flex">
@@ -928,9 +915,11 @@ const Index = () => {
       <section>
         <div className="flex flex-col items-center">
           <AnimateOnScroll>
-            <h2 className="mb-4 text-3xl font-bold">From the Blog</h2>
+            <h2 className="mb-4 text-3xl font-bold text-gray-900">
+              From the Blog
+            </h2>
           </AnimateOnScroll>
-          <div className="flex space-y-2 space-x-0 sm:space-y-0 sm:space-x-4">
+          <div className="grid grid-cols-1 space-y-2 space-x-0 sm:grid-cols-3 sm:space-y-0 sm:space-x-4">
             <AnimateOnScroll>
               <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
                 <Image
@@ -942,7 +931,7 @@ const Index = () => {
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
                 <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
-                  <h3>Text</h3>
+                  <h3 className="text-2xl font-bold text-gray-800">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
               </div>
@@ -950,7 +939,7 @@ const Index = () => {
             <AnimateOnScroll>
               <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
                 <Image
-                  src={'/assets/images/Web-3-2.jpg'}
+                  src={'/assets/images/improve_your_skills.jpg'}
                   alt=""
                   layout="fill"
                   // height="4480"
@@ -958,7 +947,7 @@ const Index = () => {
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
                 <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
-                  <h3>Text</h3>
+                  <h3 className="text-2xl font-bold text-gray-800">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
               </div>
@@ -966,7 +955,9 @@ const Index = () => {
             <AnimateOnScroll>
               <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
                 <Image
-                  src={'/assets/images/Web-3-2.jpg'}
+                  src={
+                    '/assets/images/portrait-smiling-hr-manager-having-interview-with-candidate.jpg'
+                  }
                   alt=""
                   layout="fill"
                   // height="4480"
@@ -974,7 +965,7 @@ const Index = () => {
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
                 <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
-                  <h3>Text</h3>
+                  <h3 className="text-2xl font-bold text-gray-800">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
               </div>

@@ -703,7 +703,7 @@ const Companies = () => {
           <AnimateOnScroll>
             <h2 className="mb-4 text-3xl font-bold">From the Blog</h2>
           </AnimateOnScroll>
-          <div className="flex space-y-2 space-x-0 sm:space-y-0 sm:space-x-4">
+          <div className="grid grid-cols-1 space-y-2 space-x-0 sm:grid-cols-3 sm:space-y-0 sm:space-x-4">
             <AnimateOnScroll>
               <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
                 <Image
@@ -715,7 +715,7 @@ const Companies = () => {
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
                 <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
-                  <h3>Text</h3>
+                  <h3 className="text-2xl font-bold">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
               </div>
@@ -723,9 +723,7 @@ const Companies = () => {
             <AnimateOnScroll>
               <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
                 <Image
-                  src={
-                    '/assets/images/Woman-in-office-taking-part-in-interview-asessment-on-laptop.jpg.optimal.jpg'
-                  }
+                  src={'/assets/images/improve_your_skills.jpg'}
                   alt=""
                   layout="fill"
                   // height="4480"
@@ -733,7 +731,7 @@ const Companies = () => {
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
                 <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
-                  <h3>Text</h3>
+                  <h3 className="text-2xl font-bold">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
               </div>
@@ -751,7 +749,7 @@ const Companies = () => {
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
                 <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl bg-gray-50 p-4 opacity-90">
-                  <h3>Text</h3>
+                  <h3 className="text-2xl font-bold">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
               </div>

@@ -49,7 +49,7 @@ const Index = () => {
                 <span role="img" aria-label="rocket">
                   {/* 🚀 */}
                 </span>{' '}
-                Looking to take your business to the next level? Our 1 on 1
+                Looking to take your business to the next level? Our one on one
                 interview service connects you with the top talent in your
                 industry.
               </p>
@@ -186,7 +186,7 @@ const Index = () => {
             </div>
             <div className="flex w-2/3 flex-col">
               <h2 className="font-bold">
-                Schedule 1 on 1 interviews with the industries top talent
+                Schedule one on one interviews with the industries top talent
               </h2>
               <p className="text-lg">
                 Our interview process is designed to give you the opportunity to
@@ -285,7 +285,7 @@ const Index = () => {
             </div>
             <div className="flex w-2/3 flex-col">
               <h2 className="font-bold">
-                Get reviewed and vetted of your skillset by experienced sr
+                Get reviewed and vetted of your skillset by experienced senior
                 blockchain developers, digital artists and community managers
               </h2>
               <p className="text-lg">
@@ -368,22 +368,114 @@ const Index = () => {
                 Assessments
               </h1>
             </div>
-            <p className="my-6">
+            <p className="mt-6">
               <span role="img" aria-label="rocket">
                 {/* 🚀 */}
               </span>{' '}
-              Test yourself against assessments created by Sr web3 employees at
-              well known web3 organizations
+              Test yourself against assessments created by senior web3 employees
+              at well known web3 organizations
             </p>
           </div>
-          <div className="mt-4 flex">
-            {/* <BaseWaitlistCandidateForm sampleTextProp={''} /> */}
-            <button className="ml-0 mt-4 box-border h-12 w-full rounded bg-gradient-to-r from-green-600 to-green-400 px-8 py-2 text-white shadow-md hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:w-[fit-content]">
-              Get Started
-            </button>
-            <button className="ml-0 mt-4 box-border h-12 w-full rounded border border-gray-700 bg-gray-300 px-8 py-2 text-gray-700 shadow-inner hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:ml-4 sm:w-[fit-content]">
-              Learn More
-            </button>
+          <div className="mt-2 grid w-full grid-cols-1 gap-4 text-lg">
+            <div className="flex flex-row">
+              <div className="box-border pr-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  className="h-6 w-6 stroke-green-500"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <p>
+                Whether you&apos;re a developer, designer, or marketer, our
+                assessments are designed to challenge you and push you to your
+                limits.
+              </p>
+            </div>
+            <div className="flex flex-row">
+              <div className="box-border pr-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  className="h-6 w-6 stroke-green-500"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <p>
+                Our community of experts has years of experience in the industry
+              </p>
+            </div>
+            <div className="flex flex-row">
+              <div className="box-border pr-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  className="h-6 w-6 stroke-green-500"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <p>
+                assessments that accurately reflect the skills and knowledge
+                needed to succeed in today&apos;s web3 landscape
+              </p>
+            </div>
+            <div className="flex flex-row">
+              <div className="box-border pr-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  className="h-6 w-6 stroke-green-500"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <p>gain valuable feedback on your strengths and weaknesses</p>
+            </div>
+            <div className="flex flex-row">
+              <div className="box-border pr-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  className="h-6 w-6 stroke-green-500"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <p>showcase your abilities to potential employers</p>
+            </div>
           </div>
         </div>
         <div className="relative mr-4 hidden h-full w-1/2 items-center justify-center sm:flex">
@@ -396,7 +488,7 @@ const Index = () => {
             className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
           /> */}
           <div className="flex flex-col space-y-4">
-            <div className="aspect-[16/9] h-[65vh] min-h-[50vh] rounded-lg border border-black bg-gray-50">
+            <div className="aspect-[16/9] h-[65vh] min-h-[50vh] overflow-hidden rounded-lg border border-black bg-gray-50">
               <div className="relative box-border flex h-full w-full flex-col items-center justify-start overflow-hidden py-2">
                 <div className="flex h-full w-[50%] animate-assessment-1 flex-col space-y-2 bg-gray-50">
                   <div className="flex w-full flex-col space-y-1 bg-gray-50">
@@ -670,7 +762,9 @@ const Index = () => {
           <div className="flex w-full flex-row">
             <div className="relative mr-4 hidden h-auto w-1/3 items-start justify-center sm:flex">
               <Image
-                src={'/assets/images/content_portrait.jpg'}
+                src={
+                  '/assets/images/5-guidelines-for-developing-good-online-assessments-1024x574.jpg'
+                }
                 alt=""
                 layout="fill"
                 // height="4480"

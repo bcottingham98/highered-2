@@ -125,7 +125,7 @@ const Main = (props: IMainProps) => {
         </div>
 
         <div className="content text-xl">{props.children}</div>
-        <span className="my-16 block w-full border-t border-black" />
+        <span className="my-16 block w-full border-t border-gray-300" />
         <section className="mb-16">
           <BaseCta />
         </section>

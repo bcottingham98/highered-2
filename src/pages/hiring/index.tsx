@@ -470,7 +470,7 @@ const Companies = () => {
           <div className="flex w-full flex-row">
             <div className="relative mr-4 hidden h-auto w-1/3 items-start justify-center sm:flex">
               <Image
-                src={'/assets/images/content_portrait.jpg'}
+                src={'/assets/images/hiring-concept.webp'}
                 alt=""
                 layout="fill"
                 // height="4480"
@@ -480,25 +480,14 @@ const Companies = () => {
             </div>
             <div className="flex w-2/3 flex-col">
               <h2 className="font-bold">
-                Get reviewed and vetted of your skillset by experienced sr
-                blockchain developers, digital artists and community managers
+                Get access to qualified candidates who have been community
+                vetted
               </h2>
               <p className="text-lg">
-                Are you a blockchain developer, digital artist, or community
-                manager looking to showcase your skills and get recognized by
-                industry experts? Look no further! Our review and vetting
-                service connects you with experienced senior professionals who
-                will evaluate your skillset and provide feedback to help you
-                improve. Our community consists of seasoned blockchain
-                developers, digital artists, and community managers who have the
-                knowledge and expertise to recognize talent and potential. By
-                getting reviewed and vetted by our community, you&apos;ll
-                receive valuable insights and constructive criticism that will
-                help you refine your skills and stand out in your field. Whether
-                you&apos;re just starting out or looking to take your career to
-                the next level, our service is designed to help you succeed.
-                Don&apos;t wait any longer - get reviewed and vetted by our
-                communities experts today!
+                Take the guesswork out of hiring with access to a pool of
+                qualified candidates who have been vetted by the community. Our
+                vetting process is rigorous and thorough, ensuring that only the
+                best and most qualified candidates make it through.
               </p>
               <div className="mt-4 grid w-full grid-cols-2 gap-4 text-lg">
                 <div className="flex flex-row">
@@ -518,9 +507,9 @@ const Companies = () => {
                     </svg>
                   </div>
                   <p>
-                    Are you a blockchain developer, digital artist, or community
-                    manager looking to showcase your skills and get recognized
-                    by industry experts?
+                    Our community of web3 experts provides valuable feedback on
+                    candidates, giving you a well-rounded view of their skills
+                    and potential.
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -540,9 +529,8 @@ const Companies = () => {
                     </svg>
                   </div>
                   <p>
-                    Are you a blockchain developer, digital artist, or community
-                    manager looking to showcase your skills and get recognized
-                    by industry experts?
+                    save time and resources while still finding top talent for
+                    your organization
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -562,9 +550,7 @@ const Companies = () => {
                     </svg>
                   </div>
                   <p>
-                    Are you a blockchain developer, digital artist, or community
-                    manager looking to showcase your skills and get recognized
-                    by industry experts?
+                    a more efficient and effective way to hire web3 candidates
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -583,11 +569,7 @@ const Companies = () => {
                       />
                     </svg>
                   </div>
-                  <p>
-                    Are you a blockchain developer, digital artist, or community
-                    manager looking to showcase your skills and get recognized
-                    by industry experts?
-                  </p>
+                  <p>find your next superstar hire!</p>
                 </div>
               </div>
             </div>
@@ -597,7 +579,7 @@ const Companies = () => {
           <div className="flex w-full flex-row-reverse">
             <div className="relative ml-4 hidden h-auto w-1/3 items-start justify-center sm:flex">
               <Image
-                src={'/assets/images/www.usnews.jpg'}
+                src={'/assets/images/resume_190411-800x450.jpg'}
                 alt=""
                 layout="fill"
                 // height="4480"
@@ -607,24 +589,19 @@ const Companies = () => {
             </div>
             <div className="flex w-2/3 flex-col">
               <h2 className="font-bold">
-                Share your scores with potential employeers
+                View assessment scores to grasp a candidates capabilities on a
+                high level
               </h2>
               <p className="text-lg">
-                Are you looking for a way to stand out from the crowd and
-                impress potential employers? Our assessment service not only
-                tests your skills and knowledge but also provides you with the
-                opportunity to share your scores with potential employers. By
-                sharing your scores, you&apos;ll demonstrate your commitment to
-                excellence and your willingness to put your skills to the test.
-                Our assessments are designed by senior web3 employees from top
-                organizations, ensuring that your scores carry weight in the
-                industry. By taking our assessments and sharing your scores,
-                you&apos;ll position yourself as a top candidate for any web3
-                job. Whether you&apos;re just starting out in your career or
-                looking to take it to the next level, our assessment service is
-                the perfect way to showcase your abilities and get noticed by
-                employers. Don&apos;t wait any longer - take our assessments and
-                share your scores today.
+                As a recruiter or hiring manager, you know that sourcing
+                candidates is just the first step in the hiring process. But how
+                can you quickly and accurately assess a candidate&apos;s
+                capabilities before moving forward with interviews and
+                evaluations? Our assessment service can help. With our
+                comprehensive assessments, you can quickly get a high-level
+                understanding of a candidate&apos;s basic capabilities, allowing
+                you to make more informed decisions about who to move forward
+                with.
               </p>
               <div className="mt-4 grid w-full grid-cols-2 gap-4 text-lg">
                 <div className="flex flex-row">
@@ -644,9 +621,33 @@ const Companies = () => {
                     </svg>
                   </div>
                   <p>
-                    Are you a blockchain developer, digital artist, or community
-                    manager looking to showcase your skills and get recognized
-                    by industry experts?
+                    Give your personally sourced candidates the opportunity to
+                    showcase their capabilities and make your hiring decisions
+                    with confidence.
+                  </p>
+                </div>
+
+                <div className="flex flex-row">
+                  <div className="box-border pr-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      className="h-6 w-6 stroke-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <p>
+                    Assessments are designed by senior web3 employees from top
+                    organizations, ensuring that they accurately reflect the
+                    skills and knowledge needed to succeed in today&apos;s web3
+                    landscape.
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -666,9 +667,8 @@ const Companies = () => {
                     </svg>
                   </div>
                   <p>
-                    Are you a blockchain developer, digital artist, or community
-                    manager looking to showcase your skills and get recognized
-                    by industry experts?
+                    assessments cover a wide range of topics, including
+                    development, design, and marketing
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -688,9 +688,8 @@ const Companies = () => {
                     </svg>
                   </div>
                   <p>
-                    Are you a blockchain developer, digital artist, or community
-                    manager looking to showcase your skills and get recognized
-                    by industry experts?
+                    take the guesswork out of candidate evaluation and
+                    streamline your hiring process.
                   </p>
                 </div>
               </div>

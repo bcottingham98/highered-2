@@ -4,13 +4,11 @@ import { useRouter } from 'next/router';
 import type { ReactNode } from 'react';
 import { useEffect, useState } from 'react';
 
-import BaseCta from '@/components/cta/base/BaseCta';
-import HiringCta from '@/components/cta/hiring/HiringCta';
 import BaseWaitlistCandidateForm from '@/components/form/candidate/waitlist/base/BaseWaitlistCandidateForm';
 import BaseWaitlistCompanyForm from '@/components/form/company/waitlist/base/BaseWaitlistCompanyForm';
 import { AppConfig } from '@/utils/AppConfig';
 
-type IMainProps = {
+type IWaitlistProps = {
   meta: ReactNode;
   children: ReactNode;
 };
@@ -24,7 +22,7 @@ const Image = (props: any) => {
   // const defaultSrc = "something"
   return <NextImage {...props} src={'/*'} />;
 };
-const Main = (props: IMainProps) => {
+const Waitlist = (props: IWaitlistProps) => {
   const router = useRouter();
   const pathName = router.asPath;
   const pathNameList = pathName.split('/');
@@ -127,10 +125,6 @@ const Main = (props: IMainProps) => {
         </div>
 
         <div className="content text-xl">{props.children}</div>
-        <span className="my-16 block w-full border-t border-gray-300" />
-        <section className="mb-16">
-          {pageName !== 'hiring' ? <BaseCta /> : <HiringCta />}
-        </section>
 
         <div className="flex w-full flex-col items-start border-t border-gray-300 py-4 text-center text-sm">
           <Link
@@ -210,4 +204,4 @@ const Main = (props: IMainProps) => {
   );
 };
 
-export { Main };
+export { Waitlist };

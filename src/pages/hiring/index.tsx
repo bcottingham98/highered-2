@@ -1,5 +1,6 @@
 // import { useRouter } from 'next/router';
 import NextImage from 'next/image';
+import Link from 'next/link';
 
 import AnimateOnScroll from '@/components/animations/onScroll/AnimateOnScroll';
 import { Meta } from '@/layouts/Meta';
@@ -34,9 +35,9 @@ const Companies = () => {
         />
       </a> */}
       <section className="my-8 mb-16 flex min-h-[80vh] w-full flex-col items-start justify-start">
-        <div className="flex min-h-[80vh] w-full items-start justify-start">
+        <div className="relative flex min-h-[80vh] w-full items-start justify-center sm:justify-start">
           <div className="z-10">
-            <div className="flex flex-col items-start justify-center">
+            <div className="flex flex-col items-center justify-center sm:items-start">
               <div className="flex flex-col">
                 <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left">
                   Modern Web3 Mock
@@ -45,7 +46,7 @@ const Companies = () => {
                   Interviews
                 </h1>
               </div>
-              <p className="my-6 text-gray-900">
+              <p className="my-6 text-center text-gray-900 sm:text-start">
                 <span role="img" aria-label="rocket">
                   {/* 🚀 */}
                 </span>{' '}
@@ -54,28 +55,23 @@ const Companies = () => {
                 industry.
               </p>
             </div>
-            <div className="mt-4 flex">
+            <div className="mt-4 flex flex-col space-y-4 sm:flex-row sm:space-y-0">
               {/* <BaseWaitlistCandidateForm sampleTextProp={''} /> */}
-              <button className="ml-0 mt-4 box-border h-12 w-full rounded bg-gradient-to-r from-green-600 to-green-400 px-8 py-2 text-white shadow-md hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:w-[fit-content]">
+              <Link
+                href="/join/hiring"
+                className="ml-0 mt-4 box-border h-[fit-content] w-full rounded bg-gradient-to-r from-green-600 to-green-400 px-8 py-2 text-white shadow-md hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:h-12 sm:w-[fit-content]"
+              >
                 Get Started
-              </button>
+              </Link>
               <a
                 href="#opening"
-                className="ml-0 mt-4 box-border h-12 w-full rounded border border-gray-700 bg-gray-300 px-8 py-2 text-gray-700 shadow-inner hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:ml-4 sm:w-[fit-content]"
+                className="ml-0 mt-4 box-border h-[fit-content] w-full rounded border border-gray-700 bg-gray-300 px-8 py-2 text-gray-700 shadow-inner hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:ml-4 sm:h-12 sm:w-[fit-content]"
               >
                 Learn More
               </a>
             </div>
           </div>
-          <div className="relative mr-4 hidden h-full w-1/2 items-center justify-center sm:flex">
-            {/* <Image
-            src={'/assets/images/UpdateEnglishPronunciation-1116x628-1.webp'}
-            alt=""
-            layout="fill"
-            // height="4480"
-            // width="6720"
-            className="tailwind-img-override relative flex h-auto items-center justify-center object-cover"
-          /> */}
+          <div className="absolute ml-8 flex h-full w-1/2 items-start justify-start sm:relative sm:ml-0 sm:items-center sm:justify-center">
             <div className="flex flex-col space-y-4">
               <div className="aspect-[16/9] h-[65vh] min-h-[50vh] overflow-hidden rounded-lg border border-gray-500 ">
                 <div className="flex h-full w-full flex-row">
@@ -450,8 +446,11 @@ const Companies = () => {
             </div>
           </div>
         </div>
-        <div className="flex w-full items-center justify-center">
-          <div className="flex aspect-square h-12 w-12 animate-bounce items-center justify-center rounded-full  bg-opacity-[90%] shadow-xl">
+        <div className="mt-4 flex w-full items-center justify-center sm:mt-0">
+          <a
+            href="#opening"
+            className="flex aspect-square h-12 w-12 animate-bounce items-center justify-center rounded-full  bg-opacity-[90%] shadow-xl"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -465,7 +464,7 @@ const Companies = () => {
                 d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3"
               />
             </svg>
-          </div>
+          </a>
         </div>
       </section>
       <section className="mb-8 flex flex-col space-y-8">
@@ -582,8 +581,8 @@ const Companies = () => {
           </div>
         </AnimateOnScroll>
         <AnimateOnScroll>
-          <div className="flex w-full flex-row-reverse">
-            <div className="relative ml-4 hidden h-auto w-1/3 items-start justify-center sm:flex">
+          <div className="box-border flex w-full flex-col pt-4 sm:flex-row-reverse">
+            <div className="relative mr-0 mb-4 flex h-auto w-full items-start justify-center sm:mb-0 sm:mr-4 sm:w-1/3">
               <Image
                 src={'/assets/images/resume_190411-800x450.jpg'}
                 alt=""
@@ -593,7 +592,7 @@ const Companies = () => {
                 className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover"
               />
             </div>
-            <div className="flex w-2/3 flex-col">
+            <div className="flex w-full flex-col sm:w-2/3">
               <h2 className="font-bold text-gray-800">
                 View assessment scores to grasp a candidates capabilities on a
                 high level
@@ -609,7 +608,7 @@ const Companies = () => {
                 you to make more informed decisions about who to move forward
                 with.
               </p>
-              <div className="mt-4 grid w-full grid-cols-2 gap-4 text-lg">
+              <div className="mt-4 grid w-full grid-cols-1 gap-4 text-lg sm:grid-cols-2">
                 <div className="flex flex-row">
                   <div className="box-border pr-4">
                     <svg

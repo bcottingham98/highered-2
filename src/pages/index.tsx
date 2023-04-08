@@ -202,7 +202,10 @@ const Index = () => {
                       />
                     </svg>
                   </div>
-                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                  <p>
+                    Get the most out of your interview, with personalized
+                    attention and customized questions tailored to your goals
+                  </p>
                 </div>
                 <div className="flex flex-row">
                   <div className="box-border pr-4">
@@ -220,7 +223,10 @@ const Index = () => {
                       />
                     </svg>
                   </div>
-                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                  <p>
+                    Learn new ideas, strategies, and perspectives that can help
+                    you grow professionally
+                  </p>
                 </div>
                 <div className="flex flex-row">
                   <div className="box-border pr-4">
@@ -238,7 +244,9 @@ const Index = () => {
                       />
                     </svg>
                   </div>
-                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                  <p>
+                    Expand your knowledge and take your skills to the next level
+                  </p>
                 </div>
                 <div className="flex flex-row">
                   <div className="box-border pr-4">
@@ -256,7 +264,10 @@ const Index = () => {
                       />
                     </svg>
                   </div>
-                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                  <p>
+                    Get the inside scoop from the best and brightest in your
+                    field
+                  </p>
                 </div>
               </div>
             </div>
@@ -304,7 +315,11 @@ const Index = () => {
                       />
                     </svg>
                   </div>
-                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                  <p>
+                    Our review and vetting service connects you with experienced
+                    senior professionals who will evaluate your skillset and
+                    provide feedback to help you improve
+                  </p>
                 </div>
                 <div className="flex flex-row">
                   <div className="box-border pr-4">
@@ -322,7 +337,9 @@ const Index = () => {
                       />
                     </svg>
                   </div>
-                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                  <p>
+                    showcase your skills and get recognized by industry experts
+                  </p>
                 </div>
                 <div className="flex flex-row">
                   <div className="box-border pr-4">
@@ -340,7 +357,7 @@ const Index = () => {
                       />
                     </svg>
                   </div>
-                  <p>Gain valuable feedback on your strengths and weaknesses</p>
+                  <p>take your career to the next level</p>
                 </div>
               </div>
             </div>
@@ -792,7 +809,9 @@ const Index = () => {
                     </svg>
                   </div>
                   <p>
-                    stand out from the crowd and impress potential employers
+                    assessments are designed by senior web3 employees from top
+                    organizations, ensuring that your scores carry weight in the
+                    industry.
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -833,11 +852,10 @@ const Index = () => {
                     </svg>
                   </div>
                   <p>
-                    assessments are designed by senior web3 employees from top
-                    organizations, ensuring that your scores carry weight in the
-                    industry.
+                    stand out from the crowd and impress potential employers
                   </p>
                 </div>
+
                 <div className="flex flex-row">
                   <div className="box-border pr-4">
                     <svg

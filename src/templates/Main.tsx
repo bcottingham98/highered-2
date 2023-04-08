@@ -100,14 +100,15 @@ const Main = (props: IMainProps) => {
                   Learn
                 </Link>
               </li>
+
               <li className="mr-6">
                 <Link
-                  href="/hiring"
+                  href={pageName !== 'hiring' ? '/hiring' : '/'}
                   className={`${
-                    pageName === 'hiring' ? 'underline' : ''
+                    pageName === 'hiring' ? '' : ''
                   } border-none text-gray-800 hover:text-gray-900`}
                 >
-                  For Recruiters
+                  {pageName !== 'hiring' ? 'For Recruiters' : 'For Candidates'}
                 </Link>
               </li>
               <li className="mr-6">

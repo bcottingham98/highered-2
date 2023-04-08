@@ -52,12 +52,15 @@ const Index = () => {
               <button className="ml-0 mt-4 box-border h-12 w-full rounded bg-gradient-to-r from-green-600 to-green-400 px-8 py-2 text-white shadow-md hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:w-[fit-content]">
                 Get Started
               </button>
-              <button className="ml-0 mt-4 box-border h-12 w-full rounded border border-gray-700 bg-gray-300 px-8 py-2 text-gray-700 shadow-inner hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:ml-4 sm:w-[fit-content]">
+              <a
+                href="#opening"
+                className="ml-0 mt-4 box-border h-12 w-full rounded border border-gray-700 bg-gray-300 px-8 py-2 text-gray-700 shadow-inner hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:ml-4 sm:w-[fit-content]"
+              >
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
-          <div className="relative mr-4 hidden h-full w-1/2 items-center justify-center sm:flex">
+          <div className="relative mr-4 flex h-full w-1/2 items-center justify-center">
             <div className="flex flex-col space-y-4">
               <div className="aspect-[16/9] h-[65vh] min-h-[50vh] overflow-hidden rounded-lg border border-gray-500 ">
                 <div className="h-[10%] w-full rounded-t-lg border-b border-gray-500 ">
@@ -139,13 +142,13 @@ const Index = () => {
           </div>
         </div>
         <div className="flex w-full items-center justify-center">
-          <div className="flex aspect-square h-8 w-8 animate-bounce items-center justify-center rounded-full  bg-opacity-[90%] shadow-xl">
+          <div className="flex aspect-square h-12 w-12 animate-bounce items-center justify-center rounded-full  bg-opacity-[90%] shadow-xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
-              className="h-6 w-6 stroke-green-500"
+              className="h-10 w-10 stroke-green-500"
             >
               <path
                 strokeLinecap="round"
@@ -156,10 +159,13 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <section className="my-4 mb-8 flex flex-col space-y-8">
+      <section className="mb-8 flex flex-col space-y-8">
         <AnimateOnScroll>
-          <div className="flex w-full flex-row">
-            <div className="relative mr-4 hidden h-auto w-1/3 items-start justify-center sm:flex">
+          <div
+            className="box-border flex w-full flex-col pt-4 sm:flex-row"
+            id="opening"
+          >
+            <div className="relative mr-0 mb-4 flex h-auto w-full items-start justify-center sm:mb-0 sm:mr-4 sm:w-1/3">
               <Image
                 src={'/assets/images/content_portrait.jpg'}
                 alt=""
@@ -169,7 +175,7 @@ const Index = () => {
                 className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover"
               />
             </div>
-            <div className="flex w-2/3 flex-col">
+            <div className="flex w-full flex-col sm:w-2/3">
               <h2 className="font-bold text-gray-800">
                 Schedule one on one interviews with the industries top talent
               </h2>
@@ -179,7 +185,7 @@ const Index = () => {
                 top talent. Our interviewers are experts in their fields and
                 have a wealth of experience to share with you.
               </p>
-              <div className="mt-4 grid w-full grid-cols-2 gap-4 text-lg">
+              <div className="mt-4 grid w-full grid-cols-1 gap-4 text-lg sm:grid-cols-2">
                 <div className="flex flex-row">
                   <div className="box-border pr-4">
                     <svg
@@ -257,8 +263,8 @@ const Index = () => {
           </div>
         </AnimateOnScroll>
         <AnimateOnScroll>
-          <div className="flex w-full flex-row-reverse">
-            <div className="relative ml-4 hidden h-auto w-1/3 items-start justify-center sm:flex">
+          <div className="flex w-full flex-col sm:flex-row-reverse">
+            <div className="relative ml-0 mb-4 flex h-auto w-full items-start justify-center sm:mb-0 sm:ml-4 sm:w-1/3">
               <Image
                 src={'/assets/images/www.usnews.jpg'}
                 alt=""
@@ -268,7 +274,7 @@ const Index = () => {
                 className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover"
               />
             </div>
-            <div className="flex w-2/3 flex-col">
+            <div className="flex w-full flex-col sm:w-2/3">
               <h2 className="font-bold text-gray-800">
                 Get reviewed and vetted of your skillset by experienced senior
                 blockchain developers, digital artists and community managers
@@ -281,7 +287,7 @@ const Index = () => {
                 valuable insights and constructive criticism that will help you
                 refine your skills and stand out in your field.
               </p>
-              <div className="mt-4 grid w-full grid-cols-2 gap-4 text-lg">
+              <div className="mt-4 grid w-full grid-cols-1 gap-4 text-lg sm:grid-cols-2">
                 <div className="flex flex-row">
                   <div className="box-border pr-4">
                     <svg
@@ -342,14 +348,14 @@ const Index = () => {
         </AnimateOnScroll>
       </section>
       <span className="my-16 block w-full border-t border-gray-500" />
-      <section className="mb-16 box-border flex min-h-[80vh] w-full items-start justify-start py-8">
-        <div className="z-10">
+      <section className="relative mb-16 box-border flex min-h-[80vh] w-full items-start justify-start py-8">
+        <div className="absolute z-10 w-full sm:relative sm:w-1/2">
           <div className="flex flex-col items-start justify-center">
             <div className="flex flex-col">
-              <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left">
+              <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-4xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left sm:text-6xl">
                 Modern Web3 Skill
               </h1>
-              <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-6xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left">
+              <h1 className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-center text-4xl font-extrabold text-transparent hover:from-green-400 hover:to-green-600 sm:text-left sm:text-6xl">
                 Assessments
               </h1>
             </div>
@@ -467,7 +473,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className="relative mr-4 hidden h-full w-1/2 items-center justify-center sm:flex">
+        <div className="relative mt-8 mr-8 flex h-full w-1/2 items-center justify-start sm:mt-0 sm:mr-4">
           {/* <Image
             src={'/assets/images/UpdateEnglishPronunciation-1116x628-1.webp'}
             alt=""
@@ -748,8 +754,8 @@ const Index = () => {
       </section>
       <section className="flex flex-col items-center space-y-8">
         <AnimateOnScroll>
-          <div className="flex w-full flex-row">
-            <div className="relative mr-4 hidden h-auto w-1/3 items-start justify-center sm:flex">
+          <div className="flex w-full flex-col sm:flex-row">
+            <div className="relative mr-0 mb-4 flex h-auto w-full items-start justify-center sm:mb-0 sm:mr-4 sm:w-1/3">
               <Image
                 src={
                   '/assets/images/5-guidelines-for-developing-good-online-assessments-1024x574.jpg'
@@ -761,14 +767,14 @@ const Index = () => {
                 className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover"
               />
             </div>
-            <div className="flex w-2/3 flex-col">
+            <div className="flex w-full flex-col sm:w-2/3">
               <h2 className="font-bold text-gray-800">
                 Share your scores with potential employeers
               </h2>
               <p className="text-lg">
                 Stand out from the crowd and impress potential employers
               </p>
-              <div className="mt-4 grid w-full grid-cols-2 gap-4 text-lg">
+              <div className="mt-4 grid w-full grid-cols-1 gap-4 text-lg sm:grid-cols-2">
                 <div className="flex flex-row">
                   <div className="box-border pr-4">
                     <svg
@@ -857,14 +863,14 @@ const Index = () => {
       </section>
       <span className="my-16 block w-full border-t border-gray-500" />
       <section>
-        <div className="mx-24 flex flex-col items-center">
+        <div className="mx-0 flex flex-col items-center sm:mx-24">
           <AnimateOnScroll>
             <h2 className="mb-4 text-3xl font-bold text-gray-800">
               About Highered
             </h2>
           </AnimateOnScroll>
           <AnimateOnScroll fullWidth>
-            <div className="relative mb-4 hidden h-auto w-full items-center justify-center sm:flex">
+            <div className="relative mb-4 flex h-auto w-full items-center justify-center">
               <Image
                 src={'/assets/images/Web-3-2.jpg'}
                 alt=""
@@ -932,7 +938,7 @@ const Index = () => {
           </AnimateOnScroll>
           <div className="grid grid-cols-1 space-y-2 space-x-0 sm:grid-cols-3 sm:space-y-0 sm:space-x-4">
             <AnimateOnScroll>
-              <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
+              <div className="relative mb-4 flex aspect-[16/9] h-auto w-full items-center justify-center">
                 <Image
                   src={'/assets/images/Web-3-2.jpg'}
                   alt=""
@@ -948,7 +954,7 @@ const Index = () => {
               </div>
             </AnimateOnScroll>
             <AnimateOnScroll>
-              <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
+              <div className="relative mb-4 flex aspect-[16/9] h-auto w-full items-center justify-center">
                 <Image
                   src={'/assets/images/improve_your_skills.jpg'}
                   alt=""
@@ -957,14 +963,14 @@ const Index = () => {
                   // width="6720"
                   className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover shadow-lg"
                 />
-                <div className="absolute top-0 left-0 box-border flex h-full w-[50%] flex-col rounded-l-xl  bg-gray-50 p-4 opacity-90">
+                <div className="absolute top-0 right-0 box-border flex h-full w-[50%] flex-col rounded-r-xl rounded-l-none bg-gray-50 p-4 opacity-90  sm:left-0 sm:rounded-r-none sm:rounded-l-xl">
                   <h3 className="text-2xl font-bold text-gray-800">Text</h3>
                   <p>Abcdefghig</p>
                 </div>
               </div>
             </AnimateOnScroll>
             <AnimateOnScroll>
-              <div className="relative mb-4 hidden aspect-[16/9] h-auto w-full items-center justify-center sm:flex">
+              <div className="relative mb-4 flex aspect-[16/9] h-auto w-full items-center justify-center">
                 <Image
                   src={
                     '/assets/images/portrait-smiling-hr-manager-having-interview-with-candidate.jpg'

@@ -59,9 +59,12 @@ const Companies = () => {
               <button className="ml-0 mt-4 box-border h-12 w-full rounded bg-gradient-to-r from-green-600 to-green-400 px-8 py-2 text-white shadow-md hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:w-[fit-content]">
                 Get Started
               </button>
-              <button className="ml-0 mt-4 box-border h-12 w-full rounded border border-gray-700 bg-gray-300 px-8 py-2 text-gray-700 shadow-inner hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:ml-4 sm:w-[fit-content]">
+              <a
+                href="#opening"
+                className="ml-0 mt-4 box-border h-12 w-full rounded border border-gray-700 bg-gray-300 px-8 py-2 text-gray-700 shadow-inner hover:from-green-400 hover:to-green-600 hover:shadow-lg sm:mt-0 sm:ml-4 sm:w-[fit-content]"
+              >
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
           <div className="relative mr-4 hidden h-full w-1/2 items-center justify-center sm:flex">
@@ -448,13 +451,13 @@ const Companies = () => {
           </div>
         </div>
         <div className="flex w-full items-center justify-center">
-          <div className="flex aspect-square h-8 w-8 animate-bounce items-center justify-center rounded-full  bg-opacity-[90%] shadow-xl">
+          <div className="flex aspect-square h-12 w-12 animate-bounce items-center justify-center rounded-full  bg-opacity-[90%] shadow-xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
-              className="h-6 w-6 stroke-green-500"
+              className="h-10 w-10 stroke-green-500"
             >
               <path
                 strokeLinecap="round"
@@ -465,10 +468,13 @@ const Companies = () => {
           </div>
         </div>
       </section>
-      <section className="my-4 mb-8 flex flex-col space-y-8">
+      <section className="mb-8 flex flex-col space-y-8">
         <AnimateOnScroll>
-          <div className="flex w-full flex-row">
-            <div className="relative mr-4 hidden h-auto w-1/3 items-start justify-center sm:flex">
+          <div
+            className="box-border flex w-full flex-col pt-4 sm:flex-row"
+            id="opening"
+          >
+            <div className="relative mr-0 mb-4 flex h-auto w-full items-start justify-center sm:mb-0 sm:mr-4 sm:w-1/3">
               <Image
                 src={'/assets/images/hiring-concept.webp'}
                 alt=""
@@ -478,7 +484,7 @@ const Companies = () => {
                 className="tailwind-img-override relative flex h-auto items-center justify-center overflow-hidden rounded-xl object-cover"
               />
             </div>
-            <div className="flex w-2/3 flex-col">
+            <div className="flex w-full flex-col sm:w-2/3">
               <h2 className="font-bold text-gray-800">
                 Get access to qualified candidates who have been community
                 vetted
@@ -489,7 +495,7 @@ const Companies = () => {
                 vetting process is rigorous and thorough, ensuring that only the
                 best and most qualified candidates make it through.
               </p>
-              <div className="mt-4 grid w-full grid-cols-2 gap-4 text-lg">
+              <div className="mt-4 grid w-full grid-cols-1 gap-4 text-lg sm:grid-cols-2">
                 <div className="flex flex-row">
                   <div className="box-border pr-4">
                     <svg

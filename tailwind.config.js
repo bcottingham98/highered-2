@@ -40,6 +40,84 @@ module.exports = {
         },
       },
       keyframes: {
+        video__toggle: {
+          '0%': {
+            stroke: 'rgba(246, 107, 107, 1)',
+            borderColor: 'rgba(160, 174, 192, 1)',
+          },
+          '55%': {
+            stroke: 'rgba(246, 107, 107, 1)',
+            borderColor: 'rgba(160, 174, 192, 1)',
+          },
+          '60%': {
+            stroke: 'rgba(14, 159, 110, 1)',
+            borderColor: 'rgba(14, 159, 110, 1)',
+          },
+          '85%': {
+            stroke: 'rgba(14, 159, 110, 1)',
+            borderColor: 'rgba(14, 159, 110, 1)',
+          },
+          '90%': {
+            stroke: 'rgba(246, 107, 107, 1)',
+            borderColor: 'rgba(160, 174, 192, 1)',
+          },
+          '100%': {
+            stroke: 'rgba(246, 107, 107, 1)',
+            borderColor: 'rgba(160, 174, 192, 1)',
+          },
+        },
+        chat__toggle: {
+          '0%': {
+            stroke: 'rgba(246, 107, 107, 1)',
+            borderColor: 'rgba(160, 174, 192, 1)',
+          },
+          '10%': {
+            stroke: 'rgba(246, 107, 107, 1)',
+            borderColor: 'rgba(160, 174, 192, 1)',
+          },
+          '15%': {
+            stroke: 'rgba(14, 159, 110, 1)',
+            borderColor: 'rgba(14, 159, 110, 1)',
+          },
+          '70%': {
+            stroke: 'rgba(14, 159, 110, 1)',
+            borderColor: 'rgba(14, 159, 110, 1)',
+          },
+          '75%': {
+            stroke: 'rgba(246, 107, 107, 1)',
+            borderColor: 'rgba(160, 174, 192, 1)',
+          },
+          '100%': {
+            stroke: 'rgba(246, 107, 107, 1)',
+            borderColor: 'rgba(160, 174, 192, 1)',
+          },
+        },
+        ide__toggle: {
+          '0%': {
+            stroke: 'rgba(14, 159, 110, 1)',
+            borderColor: 'rgba(14, 159, 110, 1)',
+          },
+          '40%': {
+            stroke: 'rgba(14, 159, 110, 1)',
+            borderColor: 'rgba(14, 159, 110, 1)',
+          },
+          '45%': {
+            stroke: 'rgba(246, 107, 107, 1)',
+            borderColor: 'rgba(160, 174, 192, 1)',
+          },
+          '80%': {
+            stroke: 'rgba(246, 107, 107, 1)',
+            borderColor: 'rgba(160, 174, 192, 1)',
+          },
+          '85%': {
+            stroke: 'rgba(14, 159, 110, 1)',
+            borderColor: 'rgba(14, 159, 110, 1)',
+          },
+          '100%': {
+            stroke: 'rgba(14, 159, 110, 1)',
+            borderColor: 'rgba(14, 159, 110, 1)',
+          },
+        },
         filepicker: {
           '0%': { width: '20%', borderRightWidth: '1px' },
           '10%': { width: '20%', borderRightWidth: '1px' },
@@ -176,6 +254,10 @@ module.exports = {
         },
       },
       animation: {
+        'video-toggle': 'video__toggle 18s linear infinite',
+        'chat-toggle': 'chat__toggle 18s linear infinite',
+        'ide-toggle': 'ide__toggle 18s linear infinite',
+        controls: 'controls 18s linear infinite',
         filepicker: 'filepicker 18s linear infinite',
         editor: 'editor 18s linear infinite',
         'editor-tab': 'editor__tab 18s linear infinite',

@@ -499,8 +499,8 @@ const Index = () => {
                 </svg>
               </div>
               <p className="text-gray-800">
-                Assessments accurately reflect the skills and knowledge you'll
-                need to succeed in today&apos;s web3 landscape
+                Assessments accurately reflect the skills and knowledge
+                you&apos;ll need to succeed in today&apos;s web3 landscape
               </p>
             </div>
             <div className="flex flex-row">

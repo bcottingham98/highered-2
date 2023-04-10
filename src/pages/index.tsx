@@ -45,7 +45,7 @@ const Index = () => {
                   {/* 🚀 */}
                 </span>{' '}
                 Looking to take your business to the next level? Our one on one
-                interview service connects you with the top talent in your
+                interview service connects you with the top talent in the web3
                 industry.
               </p>
             </div>
@@ -231,11 +231,12 @@ const Index = () => {
             </div>
             <div className="flex w-full flex-col sm:w-2/3">
               <h2 className="font-bold text-gray-800">
-                Schedule one on one interviews with the industries top talent
+                Schedule one on one interviews with the web3 industries top
+                talent
               </h2>
               <p className="text-lg">
                 Our interview process is designed to give you the opportunity to
-                gain valuable insights and knowledge from the industry&apos;s
+                gain valuable insights and knowledge from the web3 industries
                 top talent. Our interviewers are experts in their fields and
                 have a wealth of experience to share with you.
               </p>
@@ -319,8 +320,8 @@ const Index = () => {
                     </svg>
                   </div>
                   <p>
-                    Get the inside scoop from the best and brightest in your
-                    field
+                    Get the inside scoop from the best and brightest senior web3
+                    employees
                   </p>
                 </div>
               </div>
@@ -341,8 +342,9 @@ const Index = () => {
             </div>
             <div className="flex w-full flex-col sm:w-2/3">
               <h2 className="font-bold text-gray-800">
-                Get reviewed and vetted of your skillset by experienced senior
-                blockchain developers, digital artists and community managers
+                Get vetted as a professional, qualify your skillset through
+                experienced senior blockchain developers, digital artists and
+                community managers
               </h2>
               <p className="text-lg">
                 Our community consists of seasoned blockchain developers,
@@ -392,7 +394,7 @@ const Index = () => {
                     </svg>
                   </div>
                   <p>
-                    showcase your skills and get recognized by industry experts
+                    Showcase your skills and get recognized by industry experts
                   </p>
                 </div>
                 <div className="flex flex-row">
@@ -411,7 +413,7 @@ const Index = () => {
                       />
                     </svg>
                   </div>
-                  <p>take your career to the next level</p>
+                  <p>Take your career to the next level</p>
                 </div>
               </div>
             </div>
@@ -457,8 +459,7 @@ const Index = () => {
               </div>
               <p className="text-gray-800">
                 Whether you&apos;re a developer, designer, or marketer, our
-                assessments are designed to challenge you and push you to your
-                limits.
+                assessments are designed to challenge you and push your limits
               </p>
             </div>
             <div className="flex flex-row">
@@ -498,8 +499,8 @@ const Index = () => {
                 </svg>
               </div>
               <p className="text-gray-800">
-                assessments that accurately reflect the skills and knowledge
-                needed to succeed in today&apos;s web3 landscape
+                Assessments accurately reflect the skills and knowledge you'll
+                need to succeed in today&apos;s web3 landscape
               </p>
             </div>
             <div className="flex flex-row">
@@ -519,7 +520,8 @@ const Index = () => {
                 </svg>
               </div>
               <p className="text-gray-800">
-                gain valuable feedback on your strengths and weaknesses
+                Gain valuable feedback on your strengths and opportunities for
+                growth
               </p>
             </div>
             <div className="flex flex-row">
@@ -539,7 +541,7 @@ const Index = () => {
                 </svg>
               </div>
               <p className="text-gray-800">
-                showcase your abilities to potential employers
+                Showcase your abilities to potential employers
               </p>
             </div>
           </div>
@@ -863,7 +865,7 @@ const Index = () => {
                     </svg>
                   </div>
                   <p>
-                    assessments are designed by senior web3 employees from top
+                    Assessments are designed by senior web3 employees from top
                     organizations, ensuring that your scores carry weight in the
                     industry.
                   </p>
@@ -885,7 +887,7 @@ const Index = () => {
                     </svg>
                   </div>
                   <p>
-                    demonstrate your commitment to excellence and your
+                    Demonstrate your commitment to excellence and your
                     willingness to put your skills to the test.
                   </p>
                 </div>
@@ -906,7 +908,7 @@ const Index = () => {
                     </svg>
                   </div>
                   <p>
-                    stand out from the crowd and impress potential employers
+                    Stand out from the crowd and impress potential employers
                   </p>
                 </div>
 

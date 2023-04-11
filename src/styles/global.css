@@ -28,3 +28,7 @@ a:hover {
   height: auto !important;
   position: relative !important;
 }
+
+.article-post-override {
+  list-style: decimal !important;
+}

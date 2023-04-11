@@ -1,4 +1,4 @@
-import BlogItem from '@/models/blog/BlogItemModel';
+import CandidateWaitlist from '@/models/candidate/CandidateWaitlistModel';
 import dbConnect from '@/utils/mongodb/dbConnect';
 
 export default async function handler(
@@ -18,20 +18,20 @@ export default async function handler(
   switch (method) {
     case 'GET':
       try {
-        const blogItem = await BlogItem.find(
+        const candidateWaitlist = await CandidateWaitlist.find(
           {}
         ); /* find all the data in our database */
-        res.status(200).json({ success: true, data: blogItem });
+        res.status(200).json({ success: true, data: candidateWaitlist });
       } catch (error) {
         res.status(400).json({ success: false });
       }
       break;
     case 'POST':
       try {
-        const blogItem = await BlogItem.create(
+        const candidateWaitlist = await CandidateWaitlist.create(
           req.body
         ); /* create a new model in the database */
-        res.status(201).json({ success: true, data: blogItem });
+        res.status(201).json({ success: true, data: candidateWaitlist });
       } catch (error) {
         res.status(400).json({ success: false });
       }
